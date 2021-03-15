@@ -1,11 +1,12 @@
 <!DOCTYPE html>
+<!---------------------created by dilli hang rai on march 15------------------------->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>rockfield homepage</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="rockfield.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="script.js"></script>
 </head>
@@ -39,7 +40,7 @@
     Enjoy our Food experience
 </div>
 
-<!-------content part------->
+<!------------------content part------------------------->
 <article>
     <h2>Welcome to Rockfield</h2>
     <p class="content">
@@ -53,7 +54,7 @@ f the printing and typesetting industry. Lorem Ipsum is simply dummy text of the
 </p>
 </article>
 
-<div class="banner">
+<div class="discover-banner">
   Discover our Menu
 </div>
 
@@ -63,7 +64,7 @@ f the printing and typesetting industry. Lorem Ipsum is simply dummy text of the
    </p>
 </article>
 
-<!---sample menu-->
+<!----------sample menu--------------->
 <h4>Sample Menu</h4>
 <div class="sample-menu">
 
@@ -108,17 +109,44 @@ Submit
 <!---form part------------->
 
 <div class="form-part">
-    <form action="action.php">
-        <label for="username">username</label><br>
-        <input type="text">
-        <label for="username">username</label><br>
-        <input type="text">
-        <label for="username">username</label><br>
-        <input type="text">
-        <label for="username">username</label><br>
-        <input type="text">
-        <button>
-            submit
+    <p class="form-para">
+        To order food, call us at +977-9811075414 or fill the form below:
+    </p>
+    <form action="#">
+        <label for="username">Name 
+            <span style=" color:black;
+            opacity: 0.65; font-size: 0.85rem;">(required):</span></label>
+      
+      <input type="text">
+        <label for="username">Email
+            <span style=" color:black;
+            opacity: 0.65; font-size: 0.85rem;">(required):</span></label>
+      
+      <input type="text">
+        <label for="username">Phone</label>
+      <input type="text">
+
+        <label for="username">Date
+            <span style=" color:black;
+            opacity: 0.65; font-size: 0.85rem;">(required):</span></label>
+        <input type="text"><br>
+
+        <!--date timerequired------>
+        <label for="time">Time
+            <span style=" color:black;
+            opacity: 0.65; font-size: 0.85rem;">(required):</span>
+        </label>
+        <input type="datetime-local" id="time" name="time"><br>
+
+        <!---party size option lists-->
+        <label for="persons">Party Size
+             <span style=" color:black;
+            opacity: 0.65; font-size: 0.85rem;">(required):</span></label>
+       <input placeholder="1person" type="number" id="persons" value="1 person" name="persons" step="1">
+       <br><br>
+       
+       <button>
+            Submit
         </button>
     </form>
 </div>
@@ -126,10 +154,31 @@ Submit
 <!---------lower-foot-banner--------->
 <div class="lower-foot-banner">
 <article>
-<h3>rockfield</h3>
+<h3>Rockfield</h3>
 <p class="last-para">
-    of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+    "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis dignissimos ducimus qui blanditiis <br>
+    ducimus qui blanditiis  
 </p>
+
+<div class="foot-wrapper">
+    <div class="foot-wrap">
+        Open Hours<br>
+        Mon: Closed <br>
+        Tue-Sun: Open<br>
+    </div>
+    <div class="foot-wrap">
+        location: Hollywood Boulevard: <br>
+        Los Angeles, USA
+    </div>
+    <div class="foot-wrap">
+            Reservations<br>
+            (+555) 555 12345 <br>
+            mail:dillihangrae@gmail.com
+    </div>
+</div>
+
+
+
 </article>
 </div>
 
@@ -154,6 +203,10 @@ Submit
                 <li><a href="#">reservations</a></li>
             </ul>
         </nav>
+    <p class="last-notes">
+        Rockfield, Customized Wordpress themes into HTML CSS Codes!
+ <br>
+Created by Dilli Hang Rai.   </p>
 
 
 </div>
