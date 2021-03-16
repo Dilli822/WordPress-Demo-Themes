@@ -1,0 +1,151 @@
+/*CSS reset rules*/
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { 
+    margin:0;
+    padding:0;
+}
+html,body {
+    margin:0;
+    padding:0;
+}
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+fieldset,img { 
+    border:0;
+}
+input{
+    border:1px solid #b0b0b0;
+    padding:3px 5px 4px;
+    color:#979797;
+    width:190px;
+}
+address,caption,cite,code,dfn,th,var {
+    font-style:normal;
+    font-weight:normal;
+}
+ol,ul {
+    list-style:none;
+}
+caption,th {
+    text-align:left;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-size:100%;
+    font-weight:normal;
+}
+q:before,q:after {
+    content:'';
+}
+abbr,acronym { border:0;
+}
+
+/* CSS reset */
+
+/*img default*/
+img{
+    max-width: 100%;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+
+
+}
+
+.header{
+    background: url("https://cdn.pixabay.com/photo/2017/12/02/16/19/mechanical-engineering-2993233_960_720.jpg");
+    clip-path: polygon(0 0, 100% 0, 100% 61%, 72% 84%, 0 68%);
+    background-size: 100% 100%;
+    height: 700px;
+    width: 100%;
+    color:white;
+    
+}
+.clip-header{
+    background: url("");
+    background-color: rgb(44, 42, 42);
+    opacity: 0.56;
+    height: 100%;
+    width: 100%;
+    clip-path: polygon(66% 66%, 100% 51%, 100% 66%, 73% 91%, 0 71%, 28% 54%);
+}
+p.services{
+    color:red;
+    margin-left: 150px;
+}
+h1{
+    color: rgb(7, 7, 7);
+    font-size: 2rem;
+    text-transform: capitalize;
+    padding-left: 150px;
+}
+
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    color: rgb(0, 0, 0);
+
+}
+.left-content{
+    border: 1px solid green;
+    height: 150px;
+    width: 250px;
+}
+
+.right-content{
+    border: 1px solid green;
+    height: 150px;
+    width: 250px;
+}
+
+.feature{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    padding: 50px;
+}
+.left-feature{
+    border: 1px solid green;
+    height: 150px;
+    width: 250px;
+}
+
+.right-feature{
+    border: 1px solid green;
+    height: 150px;
+    width: 250px;
+}
+
+.history-part{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    padding: 50px;
+}
+
+.history-left{
+    border: 1px solid green;
+    height: 150px;
+    width: 250px;
+}
+
+.history-right{
+    border: 1px solid green;
+    height: 150px;
+    width: 250px;
+}
+
+.footer-banner-clip{
+    background: url("https://cdn.pixabay.com/photo/2017/12/02/16/41/mechanical-engineering-2993254_960_720.jpg");
+    background-color: rgb(44, 42, 42);
+    height: 450px;
+    width: 100%;
+    clip-path: polygon(63% 12%, 100% 0, 100% 75%, 60% 100%, 0 78%, 0 21%, 28% 0);}
