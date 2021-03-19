@@ -451,6 +451,9 @@ button.learn{
     .header{
         height: 1020px;
     }
+    .headings{
+        font-size: 4rem;
+    }
     .clip-header{
         height: 700px;
     }

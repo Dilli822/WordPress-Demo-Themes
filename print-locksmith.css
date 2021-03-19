@@ -1,0 +1,18 @@
+  
+  /*use this for printing purposes only */
+ 
+  
+  .history-right{
+    border: px solid green;
+    height: 100%;
+    width: 80%;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+button.sell{
+    font-size: 1.2rem;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 300px;
+    border: 2px solid rgb(223, 219, 219);
+}
