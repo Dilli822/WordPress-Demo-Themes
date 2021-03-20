@@ -138,3 +138,21 @@ h1{
     font-size: 2rem;
     border: 2px solid rgb(3, 3, 3);
 }
+
+/*footer parts css starts*/
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+nav.footer-bar li{
+    display: inline-flex;
+    flex-wrap: wrap;
+    list-style: none;
+    font-size: 1.5rem;
+}
+
+nav.footer-bar li a{
+    text-decoration: none;
+}
