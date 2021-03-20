@@ -1,0 +1,140 @@
+
+
+/*banner section*/
+.banner-part{
+    background: url("https://cdn.pixabay.com/photo/2018/02/26/17/25/broccoli-3183560_960_720.jpg");
+    background-size: 100% 100%;
+    height: 800px;
+    width: 100%;
+    background-color: black;
+}
+
+/*top nav part*/
+.main-logo{
+    display: flex;
+    flex-wrap: wrap;
+    position: fixed;
+    background-color: black;
+}
+
+.top-head-nav nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: flex-end;
+    position: fixed;
+    background-color: black;
+    padding: 10px;
+}
+
+.top-head-nav nav li a{
+    font-size: 2rem;
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+}
+
+h1{
+    color:white;
+    padding-top: 2rem;
+}
+
+.feature-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border: 2px solid;
+    
+}
+
+
+/*features-items css */
+.feature-items{
+    font-size: 5rem;
+    color:Red;
+    border: 2px solid rgb(3, 28, 255);
+}
+
+.feature-images-box1{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 5rem;
+    border: 1px solid red;
+}
+
+.feature-images-items{
+    border: 1px solid red;
+}
+
+.feature-images-box2{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 5rem;
+    border: 1px solid red;
+}
+
+/*mobile sections starts*/
+.sample-works{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+/* cities-branches */
+
+.branches-location{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.cities-branch1{
+    font-size: 5rem;
+    border: 2px solid green;
+}
+
+/*customer's review bg */
+.customer-review{
+    background: url("/images/cakes.jpg");
+    background-size: 100% 100%;
+    background-position: cover;
+    height: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    border: 3px solid yellow;
+}
+
+/*individual customer's review */
+.customer-left-review{
+    font-size: 2rem;
+    border: 2px solid rgb(5, 226, 255);
+}
+.customer-mid-review{
+    font-size: 2rem;
+    border: 2px solid rgb(59, 0, 196);
+}
+.customer-right-review{
+    font-size: 2rem;
+    border: 2px solid rgb(43, 255, 0);
+}
+
+/*food order section*/
+.food-order-part{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    border: 2px solid rgb(0, 0, 0);
+}
+.premuim-order{
+    font-size: 2rem;
+    border: 2px solid rgb(5, 226, 255);
+}
+.pro-order{
+    font-size: 2rem;
+    border: 2px solid rgb(255, 5, 243);
+}
+.starter-order{
+    font-size: 2rem;
+    border: 2px solid rgb(3, 3, 3);
+}
