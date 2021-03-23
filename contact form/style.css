@@ -1,0 +1,31 @@
+
+
+.contact-box{
+    display: flex;
+    flex-wrap: wrap;
+}
+.left-contact-box{
+    background-color: aqua;
+}
+.mid-contact-box{
+    background-color: black;
+}
+.right-contact-box{
+    background-color: blue;
+    position: cover;
+}
+
+h1{
+ text-align: center;
+ border-bottom: 3px solid red;
+ width: 30%;
+ border-bottom: 2px solid transparent;
+ -webkit-transition: border-bottom 0.2s;
+ transition: border-bottom 0.2s;
+
+
+}
+
+h1:hover{
+    border-bottom: 2px solid red;
+}

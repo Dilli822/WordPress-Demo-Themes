@@ -1,0 +1,11 @@
+
+
+@media only screen and (max-width:800px){
+    .top-head-nav nav li a{
+        font-size: 1.5rem;
+        text-decoration: none;
+        color:rgb(255, 79, 79);
+        margin-left: 0px;
+        border: px solid white;
+    }
+}

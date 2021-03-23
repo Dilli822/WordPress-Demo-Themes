@@ -1,0 +1,218 @@
+
+
+@media only screen and (max-width: 600px){
+    
+    body{
+        color:red;
+    }
+    .logo{
+        border: px solid white;
+        margin-left: 0px;
+        width: 60px;
+        margin-left: 10px;
+    margin-top: 35px;
+    opacity: 0.65;
+    }
+  
+    .main-nav li{
+        display: inline-block;
+        padding-top: 45px;
+        margin-left: 0px;
+        border: px solid white;
+        float: right;
+        margin-right: 0px;
+    
+  
+    
+    }
+
+    .main-nav li a:link,
+    .main-nav li a:visited{
+        padding: 0px 0px;
+        font-size: 0.8rem;
+    }
+
+.banner-part{
+    height: 500px;
+}
+    /**banner welcome heading***/
+    h1{
+        font-size: 2rem;
+        margin-top: 150px;
+    }
+    /**btn 1 and btn2**/
+    
+button.btn1{
+
+    padding: 10px;
+    width: 30%;
+    color:rgb(255, 255, 255);
+    background-color: orange;
+    border-radius: 15px;
+    border: 1px solid orange;
+    opacity: 1;
+    margin-left: 50px;
+    
+}
+
+button.btn2{
+    padding: 10px;
+    font-size: 0.85rem;
+    width: 40%;
+    color:orange;
+    font-weight: 500;
+    background-color: rgba(95, 95, 95, 0.226);
+    border-radius: 15px;
+    border: 1px solid orange;
+    opacity: 1;
+}
+
+
+}
+
+
+
+
+@media only screen and (max-width: 1025px){
+    
+    body{
+        color:red;
+    }
+    .logo{
+        border: px solid white;
+        margin-left: 0px;
+        width: 60px;
+        margin-left: 10px;
+    margin-top: 35px;
+    opacity: 0.65;
+    }
+  
+    .main-nav li{
+        display: inline-block;
+        padding-top: 45px;
+        margin-left: 0px;
+        border: px solid white;
+        float: right;
+        margin-right: 0px;
+    
+  
+    
+    }
+
+    .main-nav li a:link,
+    .main-nav li a:visited{
+        padding: 0px 0px;
+        font-size: 0.8rem;
+    }
+
+.banner-part{
+    height: 500px;
+}
+    /**banner welcome heading***/
+    h1{
+        font-size: 2rem;
+        margin-top: 150px;
+        
+    }
+    /**btn 1 and btn2**/
+    
+button.btn1{
+
+    padding: 10px;
+    width: 30%;
+    color:rgb(255, 255, 255);
+    background-color: orange;
+    border-radius: 15px;
+    border: 1px solid orange;
+    opacity: 1;
+    margin-left: 50px;
+    
+}
+
+button.btn2{
+    padding: 10px;
+    font-size: 0.85rem;
+    width: 40%;
+    color:orange;
+    font-weight: 500;
+    background-color: rgba(95, 95, 95, 0.226);
+    border-radius: 15px;
+    border: 1px solid orange;
+    opacity: 1;
+}
+
+
+
+
+@media only screen and (max-width: 1925px){
+    
+    body{
+        color:red;
+    }
+    .logo{
+        border: px solid white;
+        margin-left: 0px;
+        width: 60px;
+        margin-left: 10px;
+       margin-top: 35px;
+       opacity: 0.65;
+    }
+  
+    .main-nav li{
+        display: inline-block;
+        padding-top: 45px;
+        margin-left: 0px;
+        border: px solid white;
+        float: right;
+        margin-right: 0px;
+    
+  
+    
+    }
+
+    .main-nav li a:link,
+    .main-nav li a:visited{
+        padding: 0px 0px;
+        font-size: 0.8rem;
+    }
+
+.banner-part{
+    height: 500px;
+}
+    /**banner welcome heading***/
+    h1{
+        font-size: 2rem;
+        margin-top: 150px;
+
+    }
+    /**btn 1 and btn2**/
+    
+button.btn1{
+
+    padding: 10px;
+    width: 30%;
+    color:rgb(255, 255, 255);
+    background-color: orange;
+    border-radius: 15px;
+    border: 1px solid orange;
+    opacity: 1;
+    margin-left: 50px;
+    
+}
+
+button.btn2{
+    padding: 10px;
+    font-size: 0.85rem;
+    width: 40%;
+    color:orange;
+    font-weight: 500;
+    background-color: rgba(95, 95, 95, 0.226);
+    border-radius: 15px;
+    border: 1px solid orange;
+    opacity: 1;
+}
+
+
+}
+
+}
