@@ -1,6 +1,8 @@
 
 
-@media only screen and (max-width: 600px){
+/**FOR SMALLER PHONE SCREEN SIZES MAX 400PX**/
+
+@media only screen and (max-width: 400px){
     
     body{
         color:red;
@@ -15,7 +17,7 @@
     }
   
     .main-nav li{
-        display: inline-block;
+        display: inline-flex;
         padding-top: 45px;
         margin-left: 0px;
         border: px solid white;
@@ -37,13 +39,13 @@
 }
     /**banner welcome heading***/
     h1{
-        font-size: 2rem;
+        font-size: 0.56rem;
         margin-top: 150px;
+        color:rgb(255, 0, 0);
     }
     /**btn 1 and btn2**/
     
 button.btn1{
-
     padding: 10px;
     width: 30%;
     color:rgb(255, 255, 255);
@@ -71,9 +73,8 @@ button.btn2{
 }
 
 
-
-
-@media only screen and (max-width: 1025px){
+/**FOR PHONE SCREEN SIZES MIN 400PX AND MAX 600PX**/
+@media only screen and (min-width: 400px) and (max-width: 600px) {
     
     body{
         color:red;
@@ -88,7 +89,7 @@ button.btn2{
     }
   
     .main-nav li{
-        display: inline-block;
+        display: inline-flex;
         padding-top: 45px;
         margin-left: 0px;
         border: px solid white;
@@ -112,6 +113,79 @@ button.btn2{
     h1{
         font-size: 2rem;
         margin-top: 150px;
+        color:rgb(51, 255, 0);
+       
+    }
+    /**btn 1 and btn2**/
+    
+button.btn1{
+
+    padding: 10px;
+    width: 30%;
+    color:rgb(255, 255, 255);
+    background-color: orange;
+    border-radius: 15px;
+    border: 1px solid orange;
+    opacity: 1;
+    margin-left: 50px;
+    
+}
+
+button.btn2{
+    padding: 10px;
+    font-size: 0.85rem;
+    width: 40%;
+    color:orange;
+    font-weight: 500;
+    background-color: rgba(95, 95, 95, 0.226);
+    border-radius: 15px;
+    border: 1px solid orange;
+    opacity: 1;
+}
+}
+
+
+/* TABLETS AND LAPTOP SCREEN SIZES between screen 1025px to 600px*/
+@media only screen and (max-width: 1025px) and (min-width: 600px){
+    
+    body{
+        color:red;
+    }
+    .logo{
+        border: px solid white;
+        margin-left: 0px;
+        width: 60px;
+        margin-left: 10px;
+    margin-top: 35px;
+    opacity: 0.65;
+    }
+  
+    .main-nav li{
+        display: inline-flex;
+        padding-top: 45px;
+        margin-left: 0px;
+        border: px solid white;
+        float: right;
+        margin-right: 0px;
+    
+  
+    
+    }
+
+    .main-nav li a:link,
+    .main-nav li a:visited{
+        padding: 0px 0px;
+        font-size: 0.8rem;
+    }
+
+.banner-part{
+    height: 500px;
+}
+    /**banner welcome heading***/
+    h1{
+        font-size: 2rem;
+        margin-top: 150px;
+        color:yellow;
         
     }
     /**btn 1 and btn2**/
@@ -141,10 +215,11 @@ button.btn2{
     opacity: 1;
 }
 
+}
 
 
-
-@media only screen and (max-width: 1925px){
+/***FOR LARGER DESKTOP SCREEN SIZES MAX 2560 AND MIN 1025PX*/
+@media only screen and (max-width: 2560px) and (min-width: 1025px){
     
     body{
         color:red;
@@ -154,12 +229,12 @@ button.btn2{
         margin-left: 0px;
         width: 60px;
         margin-left: 10px;
-       margin-top: 35px;
-       opacity: 0.65;
+    margin-top: 35px;
+    opacity: 0.65;
     }
   
     .main-nav li{
-        display: inline-block;
+        display: inline-flex;
         padding-top: 45px;
         margin-left: 0px;
         border: px solid white;
@@ -183,7 +258,8 @@ button.btn2{
     h1{
         font-size: 2rem;
         margin-top: 150px;
-
+        color:rgb(255, 0, 64);
+        
     }
     /**btn 1 and btn2**/
     
@@ -210,9 +286,4 @@ button.btn2{
     border-radius: 15px;
     border: 1px solid orange;
     opacity: 1;
-}
-
-
-}
-
-}
+}}
