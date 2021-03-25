@@ -185,7 +185,7 @@ p.p1-intro-paragraph{
 
 h3{
     font-weight: lighter;
-    font-size: 1.85rem;
+    font-size: 1.35rem;
     padding: 15px 0px;
 }
 .open-365days{
@@ -219,4 +219,80 @@ h3{
     font-weight: lighter;
     width: 20%;
     padding: 15px;
+}
+
+
+
+
+.meals-wrap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border: px solid red;
+ 
+}
+
+.meals-showcase{
+    border: px solid red; 
+
+
+}
+
+    /**MEALS SECTION *
+    /**section
+.section-meals{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+   
+}
+.section-meals-flex-wrap{
+    align-items: flex-start;
+}
+
+.meals-showcase {
+    list-style: none;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.meals-showcase li {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.meal-photo{
+    width: 350px;
+    margin: 0;
+    background-color: #000;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+.meal-photo img{
+    display: flex;
+    flex-wrap: wrap;
+    width: 150px;
+}
+
+**/
+
+.meal-photo img{ 
+    -webkit-transform: scale(1.15);
+    -ms-transform: scale(1.15);
+    transform: scale(1.15);
+    -webkit-transition: -webkit-transform 0.5s, opacity 0.5s;
+    transition: transform 0.5s, opacity 0.5s;
+}
+
+.meal-photo img:hover {
+    opacity: 1;
+    -webkit-transform: scale(1.03);
+    -ms-transform: scale(1.03);
+    transform: scale(1.03);
 }
