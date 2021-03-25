@@ -5,6 +5,7 @@
 }
 
 body{
+    font-size: 15px;
     font-family: 'Poppins', sans-serif; /*poppins font used */
 }
 
@@ -71,7 +72,7 @@ body{
 
 /**banner part starts with background image on it */
 .banner-part{
-    background: url("/images/vintage-banner.jpg");
+    background: url("vintage-banner.jpg");
     background-size: 100% 100%;
     height: 1080px;
     padding: 50px;
@@ -144,7 +145,7 @@ h2{
 }
 
 
-/**HR LINE FOR H2*/
+/**HR LINE FOR ORANGERED STYLE CSS IMPORTANT BORDER-LINE*/
 .hr-style-line{
     border-bottom: 2px solid orangered;
     width: 15%;
@@ -165,7 +166,7 @@ p.p1-intro-paragraph{
 }
 
 
-/**FOOD DELIVERY SECTION STARTS**/
+/**FOOD DELIVERY AND FOODS GRID IMAGES  SECTION STARTS**/
 .food-delivery-section{
     display: flex;
     flex-wrap: wrap;
@@ -221,8 +222,7 @@ h3{
     padding: 15px;
 }
 
-
-
+/***MEALS WRAP SECTION I M HUNGRY PART!****/
 
 .meals-wrap{
     display: flex;
@@ -230,69 +230,87 @@ h3{
     justify-content: flex-start;
     align-items: flex-start;
     border: px solid red;
+    background-color: black;
+    width: 100%;
  
 }
 
 .meals-showcase{
     border: px solid red; 
-
-
 }
 
-    /**MEALS SECTION *
-    /**section
-.section-meals{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: flex-start;
-   
-}
-.section-meals-flex-wrap{
-    align-items: flex-start;
-}
-
-.meals-showcase {
-    list-style: none;
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-}
-.meals-showcase li {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.meal-photo{
-    width: 350px;
-    margin: 0;
-    background-color: #000;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-
-
-.meal-photo img{
-    display: flex;
-    flex-wrap: wrap;
-    width: 150px;
-}
-
-**/
-
+/**FOODS PHOTOS IMAGES SECTION**/
 .meal-photo img{ 
     -webkit-transform: scale(1.15);
-    -ms-transform: scale(1.15);
+    -ms-transform: scale(1.15);/*FOR ALL BROWSER*/
     transform: scale(1.15);
-    -webkit-transition: -webkit-transform 0.5s, opacity 0.5s;
+    -webkit-transition: -webkit-transform 0.5s, opacity 0.5s;/*FOR ALL BROWSER*/
     transition: transform 0.5s, opacity 0.5s;
 }
 
 .meal-photo img:hover {
     opacity: 1;
-    -webkit-transform: scale(1.03);
-    -ms-transform: scale(1.03);
+    -webkit-transform: scale(1.03); /*FOR ALL BROWSER*/
+    -ms-transform: scale(1.03);/*FOR ALL BROWSER*/
     transform: scale(1.03);
 }
+
+/**HOW IT WORKS & DOWNLOAD APPS SECTION **/
+     h3{
+       text-align: center;
+       margin-top: 50px;
+       font-size: 3rem;
+       text-transform:uppercase;
+       font-weight: lighter;
+       opacity: 0.6;
+     }
+
+    /**How it works section starts with flex property**/
+     .how-it-works{
+         display: flex;
+         flex-wrap: wrap;
+         justify-content: center;
+         border: px solid green;
+     }
+     /***hr style line2 for how it works**/
+     .hr-style-line2{
+        border-bottom: 2px solid orangered;
+        width: 8%;
+        margin-left: 850px;
+        padding: 0px;
+        margin-top: 5px;
+        margin-bottom: 25px;
+    }
+    
+
+     /**left iphone download app model figure**/
+     figure.image-compare-iphone-12-pro{
+         border: px solid greenyellow;
+        margin-left: 200px;
+       }
+
+     /**span circle dot **/
+     span.dot{
+        height: 45px;
+        width: 45px;
+        border-radius: 50%;
+        margin: 40px 0px;
+        display: inline-block;
+        border: 2px solid  rgba(255, 68, 0, 0.877);
+     }
+
+     /**dot hover effects**/
+     span.dot:hover{
+         transition-delay: 45ms;
+         background-color: rgba(255, 68, 0, 0.877);
+     }
+     /**inner article options **/
+     article.options{
+         border: px solid red;
+         margin-left: 80px;
+         margin-top: -95px;
+         font-size: 1.3rem;
+         width: 50%;
+         opacity: 0.6;
+     }
+   
