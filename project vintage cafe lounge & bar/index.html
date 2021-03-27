@@ -15,7 +15,9 @@
     <!---google fonts----->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
     <!------------fonts-awesome icons link--------------->
-    <link rel="stylesheet" href="/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
 
@@ -26,10 +28,10 @@
             <nav class="sticky">
                 <ul class="main-nav">
                     <img src="vintage-logos.png" class="logo" width="100px" alt="vintage-logo">                
-                    <li><a href="#">Live-Music</a></li>
-                    <li><a href="#">How it Works?</a></li>
-                    <li><a href="#">Our Cities</a></li>
-                    <li><a href="#">Sign up</a></li>
+                    <li><a href="#live-muisc">Live-Music</a></li>
+                    <li><a href="#how-it-works">How it Works?</a></li>
+                    <li><a href="#our cities">Our Cities</a></li>
+                    <li><a href="#sign-up">Sign up</a></li>
                     <li><a href="#food-delivery-section">Food-Delivery</a></li>
                 </ul>
         </nav>
@@ -39,7 +41,7 @@
     <div class="hr-line"></div>
    <!-----------heading parts ends here----------->
    
-       <!--banner with headings & buttons starts from here-->
+    <!--banner with headings & buttons starts from here-->
 
        <div class="banner-part">
 
@@ -71,28 +73,39 @@
            <!------ --FOOD DELIVERY PART--------->
                    <div class="food-delivery-section" id="food-delivery-section">
                         <div class="open-365days">
-                     <a href="#"> <i class='fa fa-infinity'></i> </a>  <br>
+                     <a href="#"> <i style="color:rgb(255, 68, 0);font-size: 6rem; opacity: 0.65" class='fa fa-calendar'></i></a><br><br>
                      <h3> UP TO 365 DAYS/YEAR</h3> 
-                        Never cook again! We really mean that. Our subscription plans include up to 365 days/year coverage. You can also choose to order more flexibly if that's your style. 
+                     <p class="info">
+                       Never cook again! We really mean that. Our subscription plans include up to 365 days/year coverage. You can also choose to order more flexibly if that's your style. People who love to eat are always the best people.
+                     </p>  
                     </div>
 
 
               <div class="ready-30-minutes">
-                  <a href="#"> <i class="fa fa-stopwatch"></i></a> <br>
+                  <a style="color:orangered" href="#"><i style="font-size: 6rem;
+                    opacity: 0.65" class="material-icons">timer</i></a> <br> <br>              
                   <h3>READY IN 15 MINUTES</h3>
-                    You're only twenty minutes away from your delicious and super healthy meals delivered right to your home. We work with the best chefs in each town to ensure that you're 100% happy.         
+                  <p class="info">
+                    You're only twenty minutes away from your delicious and super healthy meals delivered right to your home. We work with the best chefs in each town to ensure that you're 100% happy.We strictly maintain punctuality!        
+                  </p>
             </div>
 
                            <div class="live-music">
-                     <a href="#"> <i class="fa fa-music"></i></a> <br>
+                     <a href="#"> <i style="color:rgb(255, 68, 0); font-size: 6rem; opacity: 0.65" class="material-icons">graphic_eq</i></a> <br> <br>
                     <h3>LIVE MUSIC</h3>
-                    Attending a live music gives you a chance to experience their music live and discover new sounds that you didn't know you liked. For most people, music has a huge impact on mood, and finding music you love helps to improve your mood.
+                    <p class="info">
+                        Attending a live music gives you a chance to experience their music live and discover new sounds that you didn't know you liked. music has a huge impact on mood, and finding music you love helps to improve your mood.
+
+                    </p>
                 </div>
 
                          <div class="order-book">
-                              <a href="#"> <i class="fa fa-shopping-cart"></i></a>  <br>
+                              <a href="#"> <i style=" color:rgb(255, 68, 0);
+                                font-size: 6rem; opacity: 0.65" class="material-icons">shopping_cart</i></a> <br> <br>
                               <h3> ORDER OR PRE-BOOK</h3>
-                              We don't limit your creativity, which means you can order whatever you feel like. You can also choose from our menu and book your seats with over 100 delicious meals. It's up to you!   
+                             <p class="info">
+                                We don't limit your creativity, which means you can order whatever you feel like. You can also choose from our menu and book your seats with over 100 delicious meals. It's up to you! Apoointments are available Book now !
+                             </p>
                                  </div>
                                  </div>
 
@@ -161,13 +174,12 @@
     </div>
 
     <!-----------HOW IT WORKS & DOWNLOAD APPS SECTION PARTS------------>
-
-    <h3>How it works — Simple as 1, 2, 3</h3>
+    <h4>How it works — Simple as 1, 2, 3</h4>
 
     <!-----------HR-LINE -ORANGERED------------->  
     <div class="hr-style-line2"></div>
 
-    <div class="how-it-works">
+    <div class="how-it-works" id="how-it-works">
 
     <div class="iphone-apps">
     <figure class="image-compare-iphone-12-pro">
@@ -194,24 +206,192 @@
             Enjoy your meal after less than 20 minutes. See you the next time!
         </article><br>
         </div>
+        
+        <!--figure with mobile apps links-->
+        <figure class="mobile-apps">
+           <a href="https://www.google.com/"> <img src="download-app.svg" width="200px" class="img appstore" alt="download-apps-from-appstore"></a>
+           <a href="https://www.google.com/"> <img src="download-app-android.png"  class="img google-playstore" alt="download-apps-from-playstore"> </a>
+        </figure>
          </div>
 
 
-         <h3>We're currently in these cities </h3>
-
-         <!-----------HR-LINE -ORANGERED------------->  
-         <div class="hr-style-line2"></div>
          <!---OUR LOCATION AND BRANCHES-->
-         
+         <h4>We're currently in these cities </h4>
+         <!-----------HR-LINE -ORANGERED------------->  
+         <div class="hr-style-line3" id="our cities"></div>
+         <!---OUR LOCATION AND BRANCHES-->
+         <div class="location-branches">
+
+             <div class="branch1">
+                 <figure class="branch-img">
+                    <img src="kathmandu.jpg" class="iphone img" width="350px" alt="download app from iphone12">
+                 </figure>
+                 <h6>Kathmandu</h6>
+                 <i   style="font-size:1.85rem; margin: 0px; opacity: 0.85" class="fa fa-user"></i>
+                 <span class="branch-info">
+
+                 3600+ Daily Visiters </span><br>
+                 
+                 <i style="font-size:1.85rem; margin: 0px; opacity: 0.85" class="fa fa-star"></i>
+                 
+                 <span class="branch-info">+Top Chefs</span> <br>
+                               
+                 <i style="font-size:1.85rem; margin:0px; opacity: 0.85"class="fa fa-facebook">
+                <a class="a-links" style="color:orangered; opacity: 0.5; font-size: 1.35rem" href="#">@ktmvintage_vn</a></i>
+               
+                </div>
+               
+                <div class="branch2">
+                    <figure class="branch-img">
+                       <img src="butwal.jpg" class="iphone img" width="350px" alt="download app from iphone12">
+                    </figure>
+                    <h6>Butwal</h6>
+                    <i   style="font-size:1.85rem; margin: 0px; opacity: 0.85" class="fa fa-user"></i>
+                    <span class="branch-info">
+   
+                    3600+ Daily Visiters </span><br>
+                    
+                    <i style="font-size:1.85rem; margin: 0px" class="fa fa-star"></i>
+                    
+                    <span class="branch-info">+Top Chefs</span> <br>
+                                  
+                    <i style="font-size:1.85rem; margin:0px;opacity: 0.85" class="fa fa-facebook">
+                   <a class="a-links" style="color:orangered; opacity: 0.5; font-size: 1.35rem; opacity: 0.5" href="#">@ktmvintage_vn</a></i>
+                  
+                   </div>
+               
+                   <div class="branch3">
+                    <figure class="branch-img">
+                       <img src="pokhara.jpg" class="branch img" width="415px" alt="download app from iphone12">
+                    </figure>
+                    <h6>Pokhara</h6>
+                    <i   style="font-size:1.85rem; margin: 0px; opacity: 0.85" class="fa fa-user"></i>
+                    <span class="branch-info">
+   
+                    3600+ Daily Visiters </span><br>
+                    
+                    <i style="font-size:1.85rem; margin: 0px; opacity: 0.85" class="fa fa-star"></i>
+                    
+                    <span class="branch-info">+Top Chefs</span> <br>
+                                  
+                    <i style="font-size:1.85rem; margin:0px;opacity: 0.85" class="fa fa-facebook">
+                   <a class="a-links" style="color:orangered; opacity: 0.5; font-size: 1.35rem" href="#">@pokharavintage_vn</a></i>
+                  
+                   </div>
+               
+                   <div class="branch4">
+                    <figure class="branch-img">
+                       <img src="jhapa.jpg" class="branch img" width="350px" alt="download app from iphone12">
+                    </figure>
+                    <h6>Jhapa</h6>
+                    <i   style="font-size:1.85rem; margin: 0px;opacity: 0.85" class="fa fa-user"></i>
+                    <span class="branch-info">
+   
+                    3600+ Daily Visiters </span><br>
+                    
+                    <i style="font-size:1.85rem; margin: 0px;opacity: 0.85" class="fa fa-star"></i>
+                    
+                    <span class="branch-info">+Top Chefs</span> <br>
+                                  
+                    <i style="font-size:1.85rem; margin:0px; opacity: 0.85" class="fa fa-facebook">
+                   <a class="a-links" style="color:orangered; opacity: 0.5; font-size: 1.35rem" href="https://www.facebook.com/">@jhapavintage_vn</a></i>
+                  
+                   </div>
+            </div>
+
+
+       
 
          <!---DIV UNIQUE SECTION WITH BANNER AND DESCRIPTIONS-->
          <div class="unqiue-review-box">
-            <div class="review-left">review left</div>
-            <div class="review-mid">review -mid</div> 
-            <div class="review-right">review right</div>
-            <!--add h4 heading here--->
-         </div>   
+                    <!---OUR LOCATION AND BRANCHES-->
+         <h5>OUR CUSTOMERS CAN'T LIVE WITHOUT US!</h5>
+         <!-----------HR-LINE -ORANGERED------------->  
+         <div class="hr-style-line3"></div>
+
+           <section class="review">
+            <div class="review-left">
+                <p class="customer-feedback">
+                    Vintage Lounge & Bar is just awesome! I just launched a startup which leaves me with no time for cooking, so Omnifood is a life-saver. Now that I got used to it, I couldn't live without my daily meals! 
+                <br>-anim id </p>
+            </div>
+
+            <div class="review-mid">
+                <p class="customer-feedback">
+                    Inexpensive, healthy and great-tasting meals,<span class="highlight"> delivered right to my home. We have lots of food delivery here in Lisbon, but no one comes even close to Omifood.</span> Me and my family are so in love! 
+                <br> -est laborum.
+                </p>
+            </div> 
+
+            <div class="review-right">
+                <p class="customer-feedback">
+               I was looking for a quick and easy food delivery service in San Franciso. I tried a lot of them and ended up with Omnifood. Best food delivery service in the Bay Area. Keep up the great work! 
+            <br> -Excepteur sint  </p>
+            </div>
+        </section>
+        </div>   
          
+         <!-----------LIVE MUSIC PART STARTS---------->
+       
+         <h4>FEEL YOUR MUSIC WITH US!</h4>
+         <!-----------HR-LINE -ORANGERED------------->  
+         <div class="hr-style-line3"></div>
+
+         <div class="live-music" id="live-music">
+            <video controls autoplay muted loop id="Video">
+                <source src="vintage-promo-videosmp4" type="video/mp4">
+                    This video is not supported by your browser please update or use chrome/firefox/edge.
+              </video>
+
+            </div>
+
+
+  <!-----------LIVE MUSIC PART STARTS---------->
+       
+         <h4>WE'RE HAPPY TO HEAR FROM YOU!</h4>
+         <!-----------HR-LINE -ORANGERED------------->  
+         <div class="hr-style-line3"></div>
+
+         <!----CONTACT US FORM SECTION STARTS-->
+         <div class="contact-us">
+             <div class="left-contact">
+                 Name: <br>
+                 Email: <br>
+                 How did you find us? <br>
+                 Newsletter? <br>
+                 Drop us a line
+             </div>
+             <div class="right-contact">
+                 <input type="text"> <br>
+                 <input type="email" required>
+             </div>
+         </div>
+         <!------button ------>
+         <div class="send-btn">
+            <button class="send-btn">
+                Send It
+            </button>
+         </div>
+       
+
+
+
+
+            <!---
+             <div class="left-video">
+                <video controls autoplay muted loop id="Video">
+                    <source src="vintage-promo-videos.mp4" type="video/mp4">
+                        This video is not supported by your browser please update or use chrome/firefox/edge.
+                  </video>
+             </div>
+
+             <div class="right-video">
+                <video controls autoplay muted loop id="Video">
+                    <source src="vintage-promo-videos.mp4" type="video/mp4">
+                        This video is not supported by your browser please update or use chrome/firefox/edge.
+                  </video>
+             </div>-->
+      
          <!---
             <figure class="meal-photo">
                 <img src="/images/bruschetta-jpg.jpg"  width="150px" alt="">
