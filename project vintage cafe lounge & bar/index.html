@@ -28,7 +28,7 @@
             <nav class="sticky">
                 <ul class="main-nav">
                     <img src="vintage-logos.png" class="logo" width="100px" alt="vintage-logo">                
-                    <li><a href="#live-muisc">Live-Music</a></li>
+                    <li><a href="#live-music-part">Live-Music</a></li>
                     <li><a href="#how-it-works">How it Works?</a></li>
                     <li><a href="#our cities">Our Cities</a></li>
                     <li><a href="#sign-up">Sign up</a></li>
@@ -43,7 +43,7 @@
    
     <!--banner with headings & buttons starts from here-->
 
-       <div class="banner-part">
+       <div class="banner-part" id="head">
 
         <section class="section-features js--section-features">
         <h1>Welcome to Vintage Cafe <br>lounge & Bar</h1>
@@ -71,43 +71,58 @@
 
 
            <!------ --FOOD DELIVERY PART--------->
-                   <div class="food-delivery-section" id="food-delivery-section">
+           <div class="food-delivery-section" id="food-delivery-section">
+
                         <div class="open-365days">
+                            <section class="row js--wp-1">
                      <a href="#"> <i style="color:rgb(255, 68, 0);font-size: 6rem; opacity: 0.65" class='fa fa-calendar'></i></a><br><br>
                      <h3> UP TO 365 DAYS/YEAR</h3> 
                      <p class="info">
                        Never cook again! We really mean that. Our subscription plans include up to 365 days/year coverage. You can also choose to order more flexibly if that's your style. People who love to eat are always the best people.
                      </p>  
+                         </section>
                     </div>
+            
 
-
+     
               <div class="ready-30-minutes">
+                <section class=" row js--wp-2">
                   <a style="color:orangered" href="#"><i style="font-size: 6rem;
                     opacity: 0.65" class="material-icons">timer</i></a> <br> <br>              
                   <h3>READY IN 15 MINUTES</h3>
                   <p class="info">
                     You're only twenty minutes away from your delicious and super healthy meals delivered right to your home. We work with the best chefs in each town to ensure that you're 100% happy.We strictly maintain punctuality!        
                   </p>
+                          </section>
             </div>
 
+
+    
                            <div class="live-music">
+                             <section class="row js--wp-3">
                      <a href="#"> <i style="color:rgb(255, 68, 0); font-size: 6rem; opacity: 0.65" class="material-icons">graphic_eq</i></a> <br> <br>
                     <h3>LIVE MUSIC</h3>
                     <p class="info">
                         Attending a live music gives you a chance to experience their music live and discover new sounds that you didn't know you liked. music has a huge impact on mood, and finding music you love helps to improve your mood.
 
                     </p>
+                </section>
                 </div>
-
-                         <div class="order-book">
+       
+            
+                         <div class="order-book">                            
+                             <section class="row js--wp-4">
                               <a href="#"> <i style=" color:rgb(255, 68, 0);
                                 font-size: 6rem; opacity: 0.65" class="material-icons">shopping_cart</i></a> <br> <br>
                               <h3> ORDER OR PRE-BOOK</h3>
                              <p class="info">
                                 We don't limit your creativity, which means you can order whatever you feel like. You can also choose from our menu and book your seats with over 100 delicious meals. It's up to you! Apoointments are available Book now !
                              </p>
+                            </section>
                                  </div>
+
                                  </div>
+                              
 
     <!------MEALS SECTION STARTS ---------->
     <div class="meals-wrap">
@@ -337,9 +352,9 @@
          <!-----------HR-LINE -ORANGERED------------->  
          <div class="hr-style-line3"></div>
 
-         <div class="live-music" id="live-music">
+         <div class="live-music-part" id="live-music-part">
             <video controls autoplay muted loop id="Video">
-                <source src="vintage-promo-videosmp4" type="video/mp4">
+                <source src="vintage-promo-videos.mp4" type="video/mp4">
                     This video is not supported by your browser please update or use chrome/firefox/edge.
               </video>
 
@@ -352,30 +367,85 @@
          <!-----------HR-LINE -ORANGERED------------->  
          <div class="hr-style-line3"></div>
 
-         <!----CONTACT US FORM SECTION STARTS-->
-         <div class="contact-us">
-             <div class="left-contact">
-                 Name: <br>
-                 Email: <br>
-                 How did you find us? <br>
-                 Newsletter? <br>
-                 Drop us a line
-             </div>
-             <div class="right-contact">
-                 <input type="text"> <br>
-                 <input type="email" required>
-             </div>
-         </div>
-         <!------button ------>
-         <div class="send-btn">
-            <button class="send-btn">
-                Send It
-            </button>
-         </div>
-       
+         
+<div class="form-part" id="sign-up">
+    <form action="#" method="#">
+        <label for="Name">Name</label>
+        <input required type="text">   <br>
+
+        <label for="Email">Email</label> 
+        <input required type="email">  <br>
+
+        
+
+        <label for="sources">Where did you hear us?</label>
+        <select name="sources" id="sources">   
+        <option value="Facebook" class="">Facebook</option>
+        <option value="other" class="">Other</option>
+        <option value="Ads" class="">Ads</option>
+        <option value="friends" class="">Friends</option>
+
+        </select> <br>
+
+        <label for="number of people">Number of People for Party?(For-Pre-booking)</label>
+        <input type="number" step="1"> <br>
+        
+        <pattern>
+        <label for="payment">Credit Card Number(no spaces)</label>
+        <input type="payment" type="text" required></pattern> <br>
+
+        <label for="ratings">Give us ratings</label>  <br>
+        <input  style="width:40%;" type="range" min="0" max="5" step="1"> <br>
+        
+        
+
+
+        <label for="Comment">Drop us a line</label> <br>
+        <textarea  required id="comment" name="comment" rows="10" cols="50"></textarea>
+ <br><br>
+        <button class="send-btn">
+            Send it!
+        </button>
+    </form>
+</div>
+<br>
 
 
 
+<!-------footer part starts------>
+<footer>
+   <!----footer nav------>
+    <div class="footer-nav">
+        <a class="footer-links"href="#">About Us</a> 
+        <a class="footer-links"href="#">Blog</a> 
+         <a class="footer-links"href="#">Press</a> 
+         <a class="footer-links" href="#">iOS App</a> 
+         <a class="footer-links"href="#">Andriod App</a> 
+        
+    </div>
+       <!-----social-media-icons with links-->
+        <div class="social-media-icons">
+
+            <i id="foot-social-icons"class="fa fa-envelope"><a href="#"></a></i>
+            <i id="foot-social-icons"class="fa fa-facebook"><a href="#"></a></i>
+            <i id="foot-social-icons"class="fa fa-twitter"><a href="#"></a></i>
+            <i id="foot-social-icons"class="fa fa-comments"><a href="#"></a></i>
+            <i id="foot-social-icons"class="fa fa-instagram"><a href="#"></a></i>
+
+        </div>
+    </footer>
+
+      <!--last copyright notes-->
+           <article class="copyright">
+            Copyright © 2021 by BricK Cafe. All rights reserved.  
+
+           </article>
+           
+    
+
+
+
+        
 
             <!---
              <div class="left-video">
@@ -445,15 +515,14 @@
 
 
 
+<!------jquery libraries imported from developers.google libraries--->
 
-
-
-<!------jquery libraries imported from developers.google libraries-
-     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script> 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> 
----------jquery ajax frameworks scripts ends here-------
-<script src="/js/jquery.waypoints.min.js"></script>
-<script src="/js/script.js"></script>--->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script src="//cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
+        <script src="//cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="//cdn.jsdelivr.net/selectivizr/1.0.3b/selectivizr.min.js"></script>
+        <script src="/js/jquery.waypoints.min.js"></script>
+        <script src="/js/script.js"></script>
+ 
 </body>
 </html>

@@ -15,10 +15,10 @@ body{
     top: 0;
     left: 0;
     width: 100%;
-    background-color: rgba(228, 222, 222, 0.705);
-    opacity: 0.95;
+    opacity: 1;
     box-shadow: rgba(255, 255, 0.98);
     z-index: 9999;
+   
 }
 
 /*first header logo at left side **/
@@ -64,9 +64,7 @@ body{
     border-bottom: 2px solid orangered;
 }
 
-.hr-line{
-    border-bottom: 1px solid rgba(129, 116, 116, 0.192);
-}
+
 /**navgation part ends here**/
 
 
@@ -77,7 +75,6 @@ body{
     height: 1080px;
     padding: 50px;
     opacity: 0.76;    
-    margin-top: 82px;
 }
 
 /***first h1 headings on banner **/
@@ -224,8 +221,33 @@ p.info{
     padding: 15px;
 }
 
-/***MEALS WRAP SECTION I M HUNGRY PART!****/
+/* ----------------------------------------------- */
+/* Animations */
+/* ----------------------------------------------- */
 
+.js--wp-1,
+.js--wp-2,
+.js--wp-3
+{
+    opacity: 0;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+}
+
+.js--wp-4 {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    opacity: 1;
+}
+
+.js--wp-1.animated,
+.js--wp-2.animated,
+.js--wp-3.animated {
+    opacity: 1;
+}
+
+/*--------------------------------------------*/
+/*-------MEALS WRAP SECTION I M HUNGRY PART!****/
 .meals-wrap{
     display: flex;
     flex-wrap: wrap;
@@ -335,6 +357,8 @@ p.info{
      /***header of location and branches**/
      h4{
          margin-bottom: 20px;
+         margin-top: 80px;
+         border: px solid green;
      }
       /***hr style line2 for how it works**/
       .hr-style-line3{
@@ -403,14 +427,11 @@ p.info{
         opacity: 0.5;
         }
 
-  
-
-
      /***DIV UNIQUE SECTION WITH BANNER***/
      .unqiue-review-box{
          background: url("https://images.pexels.com/photos/7148673/pexels-photo-7148673.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
          background-size: 100% 100%;
-         height: 800px;
+         height: 850px;
          opacity: 0.9;
          color:rgb(255, 255, 255);
          font-size: 2rem;
@@ -435,7 +456,7 @@ p.info{
           font-weight: bolder;
       }
 
-      /**review parts starts as flex wrapper**/
+ /**review parts starts as flex wrapper**/
       section.review{
         display: flex;
         flex-wrap: wrap;
@@ -445,8 +466,7 @@ p.info{
         opacity: 1;
         letter-spacing: 2px;
         background-color: rgba(245, 245, 245, 0.055);
-       
-        
+          
       }
       .review-left{
         border: px solid;
@@ -473,7 +493,7 @@ p.info{
 
     /**LIVE MUSIC PART STARTS***/
 
-    .live-music{ 
+    .live-music-part{ 
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
@@ -491,30 +511,126 @@ p.info{
       
     }
 
-    /***CONTACT US OR SIGN UP PART STARTS***/
-    .contact-us{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
-    .left-contact{
-        border: 1px solid ;
-    }
-
-    .right-contact{
-        border: 1px solid ;
-    }
-
-    /**send btn**/
-    .send-btn{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
+/*-----*CONTACT US OR SIGN UP PART STARTS----------
+/**copied from before work**/
+  
+.form-part{
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: center;
+  border: px solid;
+ }
  
-    }
-    button.send-btn{
-       font-size: 2rem;
-    }
+
+ label{
+     opacity: 0.5;
+     font-size: 1.5rem;
+     font-weight: lighter;
+     margin: 0px;
+  
+ }
  
+ input{
+     background-color: rgb(255, 255, 255);
+     font-size: 1.45rem;
+     height: 2rem;
+     width: 100%;
+     border: 1px solid rgb(201, 193, 193);
+     margin: 25px 0px;
+ }
+
+ /*---input for checkbox------*/
+ input.checkbox{
+     width: 100%;
+ }
+
+ select{
+     color:rgba(0, 0, 0, 0.671);
+     background-color: rgb(255, 255, 255);
+     font-size: 1.35rem;
+     height: 2rem;
+     width: 100%;
+     border: 1px solid rgb(201, 193, 193);
+ }
+
+ button.send-btn{
+    background-color: rgb(255, 145, 0);
+    font-size: 1.35rem;
+    border-radius: 25px ;
+    border: 1px solid  rgb(255, 145, 0); 
+    color:white;
+    padding: 5px;
+    width: 17%;
+    height: 3rem;
+    cursor: pointer;
+  
+}
+
+button.send-btn:hover{
+    background-color: rgb(233, 132, 0);
+
+}
+
+ /*------------Alert--------
+ footer parts css starts*/
+ 
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+    background-color: rgb(31, 29, 29);
+    padding: 50px;
+    font-weight: lighter;
+}
+
+/***nav footer links ***/
+a.footer-links{
+    color:rgba(255, 255, 255, 0.308);
+    text-decoration: none;
+    font-size: 1.15rem;
+    padding: 0px 15px;
+}
+
+/**nav footer links hover effects **/
+a.footer-links:hover{
+    color:white;
+}
+ /*social-media-icons section*/
+ .social-media-icons{
+    justify-content: right;
+     border: px solid white;
+     font-size: 1.5rem;
+     color:rgba(245, 245, 245, 0.445);
+     cursor: pointer;
+ }
+ 
+ .social-media-icons i{
+     padding: 10px;
+     margin-top: -15px;
+ }
+
+ #foot-social-icons{
+    color:rgba(245, 245, 245, 0.445);
+    
+
+ }
+ 
+ #foot-social-icons:hover{
+     color: white;
+     transition: 200ms;
+ }
+ 
+ 
+ /*last copyright h3 section*/
+   article.copyright{
+     text-align: center;
+     margin: 0px;
+     padding: 25px;
+     font-size: 1.1rem;
+     font-weight: 100;
+     font-family: Arial;
+     background-color: rgb(31, 29, 29);
+     color:rgba(245, 245, 245, 0.247);
+ }
 
