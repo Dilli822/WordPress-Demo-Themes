@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-
-<!---VINTAGE CAFE WEBSITE BY USING JQUERY TUTOR ON MARCH23-->
+<!-----------------------VINTAGE CAFE WEBSITE BY DILLI HANG RAI FROM TUTOR ON MARCH23------------------------------------>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -8,40 +7,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vintage Cafe Lounge & Bar</title>
 
-    <!------------------------stylesheets-------------------->
+    <!------------------------------------CSS----STYLESHEETS-------------------------------------------------------------->
     <link rel="stylesheet" href="style.css">
-    <!---------------responsive stylesheets for various screens----------------->
+    <!--------------------------------RESPONSIVE CSS STYLES FOR ALL SCREEN DEVICES---------------------------------------->
     <link rel="stylesheet" href="Vintage-responsive-default.css">
-    <!---google fonts----->
+    <!----------------------------------------------GOOGLE-FONTS--------------------------------------------------------->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
-    <!------------fonts-awesome icons link--------------->
+    <!----------------------------------------FONTS-AWESOME---GOOGLE ICONS------------------------------------------------>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="ionicons.min.css">
 </head>
 <body>
 
 
-    <!--------------heading parts starts ------------------>
+    <!------------------------------------HEADINGS PART STARTS FROM HERE--------------------------------->
     <header>
-       
+        <div class="main-nav" id="myTopnav">
+            <img src="vintage-logos.png" class="logo" width="100px" alt="vintage-logo">                
+            <a href="#sign-up" class="active">Sign-Up</a>
+            <a href="#food-delivery-section">Food Delivery</a>
+            <a href="#live-music-part">Live Music</a>
+            <a href="#how-it-works">How it Works?</a>
+            <a href="#our cities">Our Cities</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+          </div>
+       <!-- <div class="main-nav" id="main-nav">
             <nav class="sticky">
-                <ul class="main-nav">
-                    <img src="vintage-logos.png" class="logo" width="100px" alt="vintage-logo">                
+                <ul>
                     <li><a href="#live-music-part">Live-Music</a></li>
                     <li><a href="#how-it-works">How it Works?</a></li>
                     <li><a href="#our cities">Our Cities</a></li>
                     <li><a href="#sign-up">Sign up</a></li>
                     <li><a href="#food-delivery-section">Food-Delivery</a></li>
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <i class="fa fa-bars"></i>
                 </ul>
         </nav>
+    </div>-->
     </header>
      
-    <!--------HR-LINE -ORANGERED---------->
+    <!----------------------------------------HR-LINE -ORANGERED------------------------------------->
     <div class="hr-line"></div>
-   <!-----------heading parts ends here----------->
+   <!-------------------------------------HEADINGS PART ENDS HERE------------------------------------>
    
-    <!--banner with headings & buttons starts from here-->
+   <!-----------------------------BANNER WITH HEADINGS AND BUTTONS STARTS FROM HERE------------------>
 
        <div class="banner-part" id="head">
 
@@ -60,77 +73,67 @@
         </section>
     </div>
   
-     <!---banner part with welcome note & buttons ends here-->
-
- <!------INTRODUCTION SECTION STARTS----------------->
+ <!---------------------------------------BANNER WITH WELCOME HEADINGS AND BUTTONS ENDS HERE------------------------------------>
+ <!----------------------------------------------------------------------------------------------------------------------------->
+ <!-------------INTRO---------------------------- SECTION STARTS---------------------------------------------------------------->
                   <h2> GET FOOD FAST - NOT FAST FOOD</h2>
                       <div class="hr-style-line"></div>
                                <p class="p1-intro-paragraph">
                       Hello, we're Omnifood, your new premium food delivery service. We know you're always busy. No time for cooking. So let us take care of that, we're really good at it, we promise! 
                    </p>
 
-
-           <!------ --FOOD DELIVERY PART--------->
+<!----------------------------------------------------------------------------------------------------------------------------------->
+<!----------------------------------------------FOOD DELIVERY PART-------------------------------------------------------------------->
            <div class="food-delivery-section" id="food-delivery-section">
 
                         <div class="open-365days">
-                            <section class="row js--wp-1">
-                     <a href="#"> <i style="color:rgb(255, 68, 0);font-size: 6rem; opacity: 0.65" class='fa fa-calendar'></i></a><br><br>
+            
+                     <a href="#"> <i  class='fa fa-calendar'></i></a><br><br>
                      <h3> UP TO 365 DAYS/YEAR</h3> 
                      <p class="info">
                        Never cook again! We really mean that. Our subscription plans include up to 365 days/year coverage. You can also choose to order more flexibly if that's your style. People who love to eat are always the best people.
                      </p>  
-                         </section>
+                
                     </div>
-            
-
      
               <div class="ready-30-minutes">
-                <section class=" row js--wp-2">
-                  <a style="color:orangered" href="#"><i style="font-size: 6rem;
-                    opacity: 0.65" class="material-icons">timer</i></a> <br> <br>              
+                  <a style="color:orangered" href="#"><i  class="material-icons">timer</i></a> <br> <br>              
                   <h3>READY IN 15 MINUTES</h3>
                   <p class="info">
                     You're only twenty minutes away from your delicious and super healthy meals delivered right to your home. We work with the best chefs in each town to ensure that you're 100% happy.We strictly maintain punctuality!        
                   </p>
-                          </section>
+                        
             </div>
 
-
-    
                            <div class="live-music">
-                             <section class="row js--wp-3">
-                     <a href="#"> <i style="color:rgb(255, 68, 0); font-size: 6rem; opacity: 0.65" class="material-icons">graphic_eq</i></a> <br> <br>
+                     <a href="#"> <i  class="material-icons">graphic_eq</i></a> <br> <br>
                     <h3>LIVE MUSIC</h3>
                     <p class="info">
                         Attending a live music gives you a chance to experience their music live and discover new sounds that you didn't know you liked. music has a huge impact on mood, and finding music you love helps to improve your mood.
-
                     </p>
-                </section>
+            
                 </div>
        
             
                          <div class="order-book">                            
-                             <section class="row js--wp-4">
-                              <a href="#"> <i style=" color:rgb(255, 68, 0);
-                                font-size: 6rem; opacity: 0.65" class="material-icons">shopping_cart</i></a> <br> <br>
-                              <h3> ORDER OR PRE-BOOK</h3>
+                              <a href="#"> <i  class="material-icons">shopping_cart</i></a> <br> <br>
+                              <h3> PRE-BOOKING</h3>
                              <p class="info">
                                 We don't limit your creativity, which means you can order whatever you feel like. You can also choose from our menu and book your seats with over 100 delicious meals. It's up to you! Apoointments are available Book now !
                              </p>
-                            </section>
+                           
                                  </div>
 
                                  </div>
                               
-
-    <!------MEALS SECTION STARTS ---------->
+    <!------------------------------------------------------------------------------------------------------------------------------------------->
+    <!-------------------------------------------MEALS SECTION STARTS---------------------------------------------------------------------------->
     <div class="meals-wrap">
 
         <div class="meals-showscase">
 
             <figure class="meal-photo">
-                <img src="bruschetta-jpg.jpg"  width="500px" alt="">
+                <img class="meal-photo" src="bruschetta-jpg.jpg"  width="500px" alt="">
             </figure>
 
         </div>
@@ -138,28 +141,28 @@
 
         <div class="meals-showcase">
             <figure class="meal-photo">
-                <img src="burger.jpg"  width="405px"  alt="">
+                <img class="meal-photo"src="burger.jpg"  width="405px"  alt="">
             </figure>  
         </div>
 
 
         <div class="meals-showcase">  
              <figure class="meal-photo">
-            <img src="chicken-roll.jpg"  width="500px"  alt="">
+            <img class="meal-photo" src="chicken-roll.jpg"  width="500px"  alt="">
         </figure>
        </div>
 
 
         <div class="meals-showcase">
             <figure class="meal-photo">
-                <img src="chowmein.jpg" width="450px"  alt="">
+                <img class="meal-photo" src="chowmein.jpg" width="450px"  alt="">
             </figure>
         </div>
 
 
         <div class="meals-showcase">
             <figure class="meal-photo">
-                <img src="pizza.jpg" width="520px"  alt="">
+                <img class="meal-photo" src="pizza.jpg" width="520px"  alt="">
             </figure>
      
         </div>
@@ -167,28 +170,26 @@
 
         <div class="meals-showcase">
             <figure class="meal-photo">
-                <img src="pork-bbq.jpg" width="450px"  alt="">
-            </figure>
-        </div>
-
-
-        <div class="meals-showcase">
-            
-            <figure class="meal-photo">
-                <img src="momos.jpg" width="460px"  alt="">
+                <img  class="meal-photo" src="pork-bbq.jpg" width="450px"  alt="">
             </figure>
         </div>
 
 
         <div class="meals-showcase">            
             <figure class="meal-photo">
-                <img src="5.jpg" width="430px" alt="">
+                <img  class="meal-photo" src="momos.jpg" width="460px"  alt="">
             </figure>
         </div>
 
-    </div>
 
-    <!-----------HOW IT WORKS & DOWNLOAD APPS SECTION PARTS------------>
+        <div class="meals-showcase">            
+            <figure class="meal-photo">
+                <img  class="meal-photo" src="5.jpg" width="430px" alt="">
+            </figure>
+        </div>
+    </div>
+   <!------------------------------------------------------------------------------------------------------------------------------>
+   <!---------------------------------------------HOW IT WORKS & DOWNLOAD APPS SECTION PARTS--------------------------------------->
     <h4>How it works — Simple as 1, 2, 3</h4>
 
     <!-----------HR-LINE -ORANGERED------------->  
@@ -198,8 +199,8 @@
 
     <div class="iphone-apps">
     <figure class="image-compare-iphone-12-pro">
-        <!--img src="https://www.apple.com/v/iphone/home/av/images/overview/compare/compare_iphone_12_pro__gmn3556ju3am_small_2x.jpg" alt="" -->
-        <img src="white-iphone-removebg-preview.png" width="650px" alt="download app from iphone12">
+ <!------img src="https://www.apple.com/v/iphone/home/av/images/overview/compare/compare_iphone_12_pro__gmn3556ju3am_small_2x.jpg" alt="------ -->
+        <img class="image-compare-iphone-12-pro" src="white-iphone-removebg-preview.png" width="650px" alt="download app from iphone12">
     </figure>
     </div>
 
@@ -221,25 +222,24 @@
             Enjoy your meal after less than 20 minutes. See you the next time!
         </article><br>
         </div>
-        
-        <!--figure with mobile apps links-->
+  <!---------------------------------------------------------------------------------------------------------------------------------------------------->      
+  <!----------------------------------------------fIGURE WITH MOBILE APSS STARTS FROM HERE-------------------------------------------------------------->
         <figure class="mobile-apps">
            <a href="https://www.google.com/"> <img src="download-app.svg" width="200px" class="img appstore" alt="download-apps-from-appstore"></a>
            <a href="https://www.google.com/"> <img src="download-app-android.png"  class="img google-playstore" alt="download-apps-from-playstore"> </a>
         </figure>
          </div>
-
-
-         <!---OUR LOCATION AND BRANCHES-->
+  <!-------------------------------------------------------------------------------------------------------------------------------------------------------------->
+  <!--------------------------------------------------------------------------OUR LOCATION AND BRANCHES----------------------------------------------------------->
          <h4>We're currently in these cities </h4>
          <!-----------HR-LINE -ORANGERED------------->  
          <div class="hr-style-line3" id="our cities"></div>
-         <!---OUR LOCATION AND BRANCHES-->
+  <!----------------------------------------------------------------------------OUR LOCATION AND BRANCHES---------------------------------------------------------->
          <div class="location-branches">
 
              <div class="branch1">
                  <figure class="branch-img">
-                    <img src="kathmandu.jpg" class="iphone img" width="350px" alt="download app from iphone12">
+                    <img src="kathmandu.jpg" class="branch-img" width"350px" alt="download app from iphone12">
                  </figure>
                  <h6>Kathmandu</h6>
                  <i   style="font-size:1.85rem; margin: 0px; opacity: 0.85" class="fa fa-user"></i>
@@ -258,7 +258,7 @@
                
                 <div class="branch2">
                     <figure class="branch-img">
-                       <img src="butwal.jpg" class="iphone img" width="350px" alt="download app from iphone12">
+                       <img src="butwal.jpg" class="branch-img" width"350px" alt="download app from iphone12">
                     </figure>
                     <h6>Butwal</h6>
                     <i   style="font-size:1.85rem; margin: 0px; opacity: 0.85" class="fa fa-user"></i>
@@ -277,7 +277,7 @@
                
                    <div class="branch3">
                     <figure class="branch-img">
-                       <img src="pokhara.jpg" class="branch img" width="415px" alt="download app from iphone12">
+                       <img src="pokhara.jpg" class="branch-img" width"415px" alt="download app from iphone12">
                     </figure>
                     <h6>Pokhara</h6>
                     <i   style="font-size:1.85rem; margin: 0px; opacity: 0.85" class="fa fa-user"></i>
@@ -296,7 +296,7 @@
                
                    <div class="branch4">
                     <figure class="branch-img">
-                       <img src="jhapa.jpg" class="branch img" width="350px" alt="download app from iphone12">
+                       <img src="jhapa.jpg" class="branch-img" width"350px" alt="download app from iphone12">
                     </figure>
                     <h6>Jhapa</h6>
                     <i   style="font-size:1.85rem; margin: 0px;opacity: 0.85" class="fa fa-user"></i>
@@ -315,13 +315,13 @@
             </div>
 
 
-       
+ <!----------------------------------------------------------------------------------------------------------------------------------->      
 
-         <!---DIV UNIQUE SECTION WITH BANNER AND DESCRIPTIONS-->
+ <!--------------------------------------------DIV UNIQUE SECTION WITH BANNER AND DESCRIPTIONS---------------------------------------->
          <div class="unqiue-review-box">
                     <!---OUR LOCATION AND BRANCHES-->
          <h5>OUR CUSTOMERS CAN'T LIVE WITHOUT US!</h5>
-         <!-----------HR-LINE -ORANGERED------------->  
+ <!-------------------------------------------------------HR-LINE -ORANGERED----------------------------------------------------------->  
          <div class="hr-style-line3"></div>
 
            <section class="review">
@@ -346,29 +346,44 @@
         </section>
         </div>   
          
-         <!-----------LIVE MUSIC PART STARTS---------->
+ <!----------------------------------------------------LIVE MUSIC PART STARTS---------------------------------------------------------------->
        
          <h4>FEEL YOUR MUSIC WITH US!</h4>
-         <!-----------HR-LINE -ORANGERED------------->  
+ <!------------------------------------------------------HR-LINE -ORANGERED-------------------------------------->  
          <div class="hr-style-line3"></div>
 
          <div class="live-music-part" id="live-music-part">
-            <video controls autoplay muted loop id="Video">
-                <source src="vintage-promo-videos.mp4" type="video/mp4">
-                    This video is not supported by your browser please update or use chrome/firefox/edge.
+            <video poster=""width="1900" controls autoplay muted loop id="Video">
+             <source src="vintage clip.mp4"  type="video/mp4">
+                This video is not supported by your browser please update or use chrome/firefox/edge.
               </video>
 
             </div>
 
+    <!---------------------------------<div class="left-video"> "DONOT TOUCH IT IGNORE IT"
+                <video controls autoplay muted loop id="Video">
+                    <source src="vintage-promo-videos.mp4" type="video/mp4">
+                        This video is not supported by your browser please update or use chrome/firefox/edge.
+                  </video>
+             </div>
 
-  <!-----------LIVE MUSIC PART STARTS---------->
+             <div class="right-video">
+                <video controls autoplay muted loop id="Video">
+                    <source src="vintage-promo-videos.mp4" type="video/mp4">
+                        This video is not supported by your browser please update or use chrome/firefox/edge.
+                  </video>
+             </div>-->
+  <!-------------------------------------------------LIVE MUSIC PART ENDS----------------------------------------------------->
+
+  <!-------------------------------------------------------------------------------------------------------------------------->
+  <!-------------------------------------------------CONTACT FORM STARTS------------------------------------------------------>
        
-         <h4>WE'RE HAPPY TO HEAR FROM YOU!</h4>
-         <!-----------HR-LINE -ORANGERED------------->  
-         <div class="hr-style-line3"></div>
+    <h4>WE'RE HAPPY TO HEAR FROM YOU!</h4>
+  <!--------------------------------------------------HR-LINE -ORANGERED------------------------------------------------------>  
+    <div class="hr-style-line3"></div>
 
          
-<div class="form-part" id="sign-up">
+    <div class="form-part" id="sign-up">
     <form action="#" method="#">
         <label for="Name">Name</label>
         <input required type="text">   <br>
@@ -387,7 +402,7 @@
 
         </select> <br>
 
-        <label for="number of people">Number of People for Party?(For-Pre-booking)</label>
+        <label for="number of people">Number of People for Party?(Only for-Pre-booking)</label>
         <input type="number" step="1"> <br>
         
         <pattern>
@@ -401,20 +416,18 @@
 
 
         <label for="Comment">Drop us a line</label> <br>
-        <textarea  required id="comment" name="comment" rows="10" cols="50"></textarea>
- <br><br>
+        <textarea  required id="comment" name="comment" rows="10" cols="50"></textarea><br><br>
         <button class="send-btn">
             Send it!
-        </button>
-    </form>
-</div>
-<br>
+         </button>
+         </form>
+          </div><br>
 
 
-
-<!-------footer part starts------>
+<!---------------------------------------------------------------------------------------------------------------------------------->
+<!-------------------------------------------------FOOTER PART STARTS--------------------------------------------------------------->
 <footer>
-   <!----footer nav------>
+   <!----------------------------------------------FOOTER NAVIGATION---------------------------------------------------------------->
     <div class="footer-nav">
         <a class="footer-links"href="#">About Us</a> 
         <a class="footer-links"href="#">Blog</a> 
@@ -423,7 +436,7 @@
          <a class="footer-links"href="#">Andriod App</a> 
         
     </div>
-       <!-----social-media-icons with links-->
+       <!-------------------------------------SOCIAL-MEDIA-ICONS-WITH-LINKS---------------------------------------------------------->
         <div class="social-media-icons">
 
             <i id="foot-social-icons"class="fa fa-envelope"><a href="#"></a></i>
@@ -435,94 +448,24 @@
         </div>
     </footer>
 
-      <!--last copyright notes-->
+    <!-----------------------------------------ARTICLE COPYRIGHT STARTS FROM HERE----------------------------------------------------->
            <article class="copyright">
             Copyright © 2021 by BricK Cafe. All rights reserved.  
-
            </article>
-           
-    
-
-
-
-        
-
-            <!---
-             <div class="left-video">
-                <video controls autoplay muted loop id="Video">
-                    <source src="vintage-promo-videos.mp4" type="video/mp4">
-                        This video is not supported by your browser please update or use chrome/firefox/edge.
-                  </video>
-             </div>
-
-             <div class="right-video">
-                <video controls autoplay muted loop id="Video">
-                    <source src="vintage-promo-videos.mp4" type="video/mp4">
-                        This video is not supported by your browser please update or use chrome/firefox/edge.
-                  </video>
-             </div>-->
-      
-         <!---
-            <figure class="meal-photo">
-                <img src="/images/bruschetta-jpg.jpg"  width="150px" alt="">
-            </figure>
-
-
-   
-            <figure class="meal-photo">
-                <img src="/images/burger.jpg"  width="150px"  alt="">
-            </figure>
-  
-
-   
-            <figure class="meal-photo">
-                <img src="/images/chicken-roll.jpg"  width="150px"  alt="">
-            </figure>
-     
-
-      
-            <figure class="meal-photo">
-                <img src="/images/chowmein.jpg" width="150px"  alt="">
-            </figure>
-      
-     
-            <figure class="meal-photo">
-                <img src="/images/pork-bbq.jpg" width="150px"  alt="">
-            </figure>
-      
-
-      
-            <figure class="meal-photo">
-                <img src="/images/momos.jpg" width="150px"  alt="">
-            </figure>
-     
-
-     
-            <figure class="meal-photo">
-                <img src="/images/pizza.jpg" width="150px"  alt="">
-            </figure>
-     
-
-     
-            <figure class="meal-photo">
-                <img src="/images/5.jpg" width="150px" alt="">
-            </figure> --->
-    
-
-       
-                  
-
-
-
-
-<!------jquery libraries imported from developers.google libraries--->
-
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-        <script src="//cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
-        <script src="//cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
-        <script src="//cdn.jsdelivr.net/selectivizr/1.0.3b/selectivizr.min.js"></script>
-        <script src="/js/jquery.waypoints.min.js"></script>
-        <script src="/js/script.js"></script>
+    <!------------------------------------------ARTICLE COPYRIGHT ENDS HERE------------------------------------------------------------>
  
+
+    <!-----------------------------------SCRIPT JS-------------------------------------->
+    
+    <script>
+    function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "main-nav") {
+          x.className += " responsive";
+        } else {
+          x.className = "main-nav";
+        }
+      }
+    </script>
 </body>
 </html>

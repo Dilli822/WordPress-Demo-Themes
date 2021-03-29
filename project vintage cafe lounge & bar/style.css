@@ -9,7 +9,7 @@ body{
     font-family: 'Poppins', sans-serif; /*poppins font used */
 }
 
-/**nav header with sticky div starts from here */
+/**-------------NAV HEADER WITH STICKY DIV STARTS HERE--------------*/
 .sticky{
     position: fixed;
     top: 0;
@@ -21,18 +21,48 @@ body{
    
 }
 
-/*first header logo at left side **/
+/*------------FIRST HEADER AT LEFT SIDE WITH VINTAGE LOGO-------------- **/
 .logo{
     border: px solid rgb(22, 21, 21);
-    margin-left: 150px;
+    margin-left: 110px;
     margin-top: 5px;
     opacity: 0.65;
     width: 80px;
 }
 
-/*main navigation bar with lists */
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .main-nav a {
+    float: right;
+    display: block;
+    color: #534747;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .main-nav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .main-nav a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .main-nav .icon {
+    display: none;
+  }
+/*-------------------HEADER MAIN NAV BAR WITH LISTS----------------
 .sticky.main-nav{
     margin-top: 50px;
+    overflow: hidden;
 }
 .main-nav li{
     display: inline-flex;
@@ -58,26 +88,41 @@ body{
     transition: border-bottom 0.2s;
 }
 
-/**nav hover effects **/
+/**-----------------HEAD NAV HOVER EFFECTS--------------------- 
 .main-nav li a:hover,
 .main-nav li a:active{
     border-bottom: 2px solid orangered;
 }
 
+/**---------------------------------MOBILE RESPONSIVE NAV BA----&
+.mobile-nav-icon{
+    cursor:pointer;
+    color:red;
+    float: right;
+    display: none;
 
-/**navgation part ends here**/
+}
 
 
-/**banner part starts with background image on it */
+.mobile-nav-icon i {
+    font-size: 200%;
+    color:white;
+}
+
+/**---------------HEADER NAV ENDS HERE----------------------------**/
+
+
+/**------------BANNER STARTS WITH BG IMAGE--------------------- */
 .banner-part{
     background: url("vintage-banner.jpg");
     background-size: 100% 100%;
     height: 1080px;
     padding: 50px;
-    opacity: 0.76;    
+    opacity: 0.76;   
+    margin-top: 80px; 
 }
 
-/***first h1 headings on banner **/
+/***=================FIRST HEADING INSIDE THE BANNER==================== **/
 h1{
     color:rgb(253, 253, 253);
     text-transform: uppercase;
@@ -90,7 +135,7 @@ h1{
 
 }
 
-/**button 1**/
+/**=====================BUTTON 1==================**/
 button.btn1{
     padding: 10px;
     width: 15%;
@@ -102,7 +147,7 @@ button.btn1{
     opacity: 1;
     margin-left: 650px;
 }
-/**button 2**/
+/**---------------------------BUTTO---------------------------*/
 button.btn2{
     padding: 10px;
     width: 15%;
@@ -115,7 +160,7 @@ button.btn2{
     font-size: 1.2rem;
 }
 
-/**buttons hover */
+/**----------------------------BUTTONS HOVER EFFECTS-------------------- */
 button.btn1:hover{
     border: 1px solid rgb(245, 86, 28);
     transition-delay: 150ms;
@@ -129,10 +174,10 @@ button.btn2:hover{
     color: whitesmoke;
 }
 
-/*banner with buttons ends here***/
+/*-----------------------------BANNER AND BUTTONS ENDS HERE----------------**/
 
 
-/**INTRODUCTORY PART STARTS**/
+/**----------------------------INTRODUCTORY PART STARTS-----------------------**/
 
 h2{
     font-size: 2.5rem;
@@ -144,7 +189,7 @@ h2{
 }
 
 
-/**HR LINE FOR ORANGERED STYLE CSS IMPORTANT BORDER-LINE*/
+/**---------------------HR LINE FOR ORANGERED STYLE CSS IMPORTANT BORDER-LINE--------------------*/
 .hr-style-line{
     border-bottom: 2px solid orangered;
     width: 15%;
@@ -154,7 +199,7 @@ h2{
 }
 
 
-/**FIRST INTRODUCTORY PARAGRAPH **/
+/**-------------------------------FIRST INTRODUCTORY PARAGRAPH ------------------------**/
 p.p1-intro-paragraph{
     font-size: 1.35rem;
     text-align: left;
@@ -166,7 +211,7 @@ p.p1-intro-paragraph{
 }
 
 
-/**FOOD DELIVERY AND FOODS GRID IMAGES  SECTION STARTS**/
+/**------------------FOOD DELIVERY AND FOODS GRID IMAGES  SECTION STARTS*-------------*/
 .food-delivery-section{
     display: flex;
     flex-wrap: wrap;
@@ -175,8 +220,9 @@ p.p1-intro-paragraph{
     border: px solid red;
     padding: 50px;
     margin-top: 20px;
+    
 }
-/**header for features**/
+/**-----------------HEADER FOR FEATURES-------------------------------*/
 h3{
     font-weight: lighter;
     font-size: 1.65rem;
@@ -197,12 +243,24 @@ p.info{
    
 }
 
+.open-365days a i{
+    color:rgb(255, 68, 0);
+    font-size: 1rem; 
+    opacity: 0.65;
+}
+
 .ready-30-minutes{
     border: px solid rgb(0, 255, 21);
     font-size: 1.15rem;
     font-weight: lighter;
     width: 20%;
     padding: 15px;
+}
+
+.open-365days a i{
+    color:rgb(255, 68, 0);
+    font-size: 1rem; 
+    opacity: 0.65;
 }
 
 .live-music{
@@ -213,6 +271,12 @@ p.info{
     padding: 15px;
 }
 
+.live-music a i{
+    color:rgb(255, 68, 0);
+    font-size: 1rem; 
+    opacity: 0.65;
+}
+
 .order-book{
     border: px solid rgb(72, 255, 0);
     font-size: 1.15rem;
@@ -220,34 +284,13 @@ p.info{
     width: 20%;
     padding: 15px;
 }
-
-/* ----------------------------------------------- */
-/* Animations */
-/* ----------------------------------------------- */
-
-.js--wp-1,
-.js--wp-2,
-.js--wp-3
-{
-    opacity: 0;
-    -webkit-animation-duration: 1s;
-    animation-duration: 1s;
+.order-book a i{
+    color:rgb(255, 68, 0);
+    font-size: 1rem; 
+    opacity: 0.65;
 }
-
-.js--wp-4 {
-    -webkit-animation-duration: 1s;
-    animation-duration: 1s;
-    opacity: 1;
-}
-
-.js--wp-1.animated,
-.js--wp-2.animated,
-.js--wp-3.animated {
-    opacity: 1;
-}
-
-/*--------------------------------------------*/
-/*-------MEALS WRAP SECTION I M HUNGRY PART!****/
+/*-------------------------------------------------------------------------------*/
+/*-------MEALS WRAP SECTION I M HUNGRY PART-----------------------------------!****/
 .meals-wrap{
     display: flex;
     flex-wrap: wrap;
@@ -279,7 +322,7 @@ p.info{
     transform: scale(1.03);
 }
 
-/**HOW IT WORKS & DOWNLOAD APPS SECTION **/
+/**--------------HOW IT WORKS & DOWNLOAD APPS SECTION -----------------------**/
      h4{
        text-align: center;
        margin-top: 50px;
@@ -290,7 +333,7 @@ p.info{
 
      }
 
- /**How it works section starts with flex property**/
+ /**----HOW IT WORKS SECTION WITH FLEX PROPERTY----------------------**/
      .how-it-works{
          display: flex;
          flex-wrap: wrap;
@@ -299,7 +342,7 @@ p.info{
          background-color: rgba(245, 241, 237, 0.445);
          padding: 50px;
      }
-     /***hr style line2 for how it works**/
+     /***---------------HR STYLE LINE 2 HOW IT WORKS----------------**/
      .hr-style-line2{
         border-bottom: 2px solid orangered;
         width: 8%;
@@ -310,13 +353,13 @@ p.info{
     }
     
 
-     /**left iphone download app model figure**/
+     /**--------------------LEFT IPHONE DOWNLOAD APP FIGURE------------**/
      figure.image-compare-iphone-12-pro{
          border: px solid greenyellow;
         margin-left: 200px;
        }
 
-     /**span circle dot **/
+     /**------------------------SPAN CIRCLE DOTS----------------------- **/
      span.dot{
         height: 45px;
         width: 45px;
@@ -326,13 +369,13 @@ p.info{
         border: 2px solid  rgba(255, 68, 0, 0.877);
      }
 
-     /**dot hover effects**/
+     /**--------------------------DOT HOVER EFFECTS---------------------------**/
      span.dot:hover{
          transition-delay: 45ms;
          background-color: rgba(255, 68, 0, 0.877);
      }
 
-     /**inner article options **/
+     /**-------------------------INNER ARTICLE OPTIONS--------------------- **/
      article.options{
          border: px solid red;
          margin-left: 80px;
@@ -342,7 +385,7 @@ p.info{
          opacity: 0.6;
      }
 
-     /***figure with mobile apps links*/
+     /***------------------FIGURE WITH MOBILE APPS LINKS-----------------------------*/
      figure.mobile-apps{
          margin-left: 300px;
          margin-top: -70px;
@@ -353,14 +396,14 @@ p.info{
          transform: scale(1.15);
      }
 
-     /**-OUR LOCATION AND BRANCHES**/
-     /***header of location and branches**/
+     /**---------------------------OUR LOCATION AND BRANCHES----------------------**/
+     /***--------------------------HEADER OF LOCATION & BRANCHES------------------**/
      h4{
          margin-bottom: 20px;
          margin-top: 80px;
          border: px solid green;
      }
-      /***hr style line2 for how it works**/
+      /**-----------------------HR STYLE LINE 3 HOW IT WORKS---------------------*/
       .hr-style-line3{
         border-bottom: 2px solid orangered;
         width: 8%;
@@ -375,9 +418,9 @@ p.info{
          justify-content: center;
          border: px solid red;
      }
-     /**branch figure**/
+     /**-----------------------------BRANCH FIGURE-------------------------------**/
     
-     /**branches ***/
+     /*BRANCHES--------------------------------------------------------------- ***/
      .branch1{
          font-size: 2rem;
          border: px solid red;
@@ -403,7 +446,12 @@ p.info{
        
     }
 
-    /**branches elements ***/
+    /**-------BRANCHES PHOTOS-----**/
+    img.branch-img{
+        border: 0px solid red;
+     }
+
+    /**-------------------------------BRANCH ELEMENTS---------------------------------***/
     h6{
         text-align: left;
        font-weight: lighter;
@@ -412,12 +460,12 @@ p.info{
        border: px solid;
        opacity: 0.5;
     }
-    /** icons for branch **/
+    /** ------------------------------FACEBOOK-ICONS FOR BRANCHES-------------------------------**/
     i.fa{
         color:orangered;  
     }
  
-    /**short brief of branches**/
+    /**--------------------------SHORT BRIEF OF BRANCHES--------------------------------**/
     span.branch-info{
         font-size: 1rem;
         text-align: center;
@@ -427,7 +475,7 @@ p.info{
         opacity: 0.5;
         }
 
-     /***DIV UNIQUE SECTION WITH BANNER***/
+     /***---------------------DIV UNIQUE SECTION WITH BANNER-----------------------------***/
      .unqiue-review-box{
          background: url("https://images.pexels.com/photos/7148673/pexels-photo-7148673.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
          background-size: 100% 100%;
@@ -439,7 +487,7 @@ p.info{
           
      }
 
-    /**header inside the div unique box**/
+    /**--------------------HEADER INSIDE THE DIV BOX---------------------------------**/
      h5{
         text-align: center;
         padding-top: 200px;
@@ -450,13 +498,13 @@ p.info{
        
  
       }
-      /**short span to make text visualized**/
+    /**---------------------SHORT SPAN TO VISUALIZE TEXTS--------------------------**/
       span.highlight{
           color:rgb(55, 0, 255);
           font-weight: bolder;
       }
 
- /**review parts starts as flex wrapper**/
+ /**---------------------------REVIEW PART AS FLEX WRAPPER------------------------------**/
       section.review{
         display: flex;
         flex-wrap: wrap;
@@ -491,28 +539,26 @@ p.info{
 
     }
 
-    /**LIVE MUSIC PART STARTS***/
+    /**----------------------------------------LIVE MUSIC PART STARTS------------------------------***/
 
     .live-music-part{ 
         display: flex;
         flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
         width: 100%;
         background-color: black;
-        color:white;
+     
       
     }
     
-    /**video style **/
+    /**--------------------------------------VIDEO STYLE----------------------------------------- **/
     #video{
         width: 100%;
-        border: 12px solid white;
+        border: 1px solid white;
       
     }
 
-/*-----*CONTACT US OR SIGN UP PART STARTS----------
-/**copied from before work**/
+/*-----------------*CONTACT US OR SIGN UP PART STARTS-----------------------------------------------
+/**-----------------------------------------------------------------------------------------------**/
   
 .form-part{
   display: flex;
@@ -524,9 +570,9 @@ p.info{
 
  label{
      opacity: 0.5;
-     font-size: 1.5rem;
+     font-size: 1.4rem;
      font-weight: lighter;
-     margin: 0px;
+  
   
  }
  
@@ -536,16 +582,16 @@ p.info{
      height: 2rem;
      width: 100%;
      border: 1px solid rgb(201, 193, 193);
-     margin: 25px 0px;
+     margin:8px 0px;
  }
 
- /*---input for checkbox------*/
+ /*-----------------------------------input for checkbox--------------------------------*/
  input.checkbox{
      width: 100%;
  }
 
  select{
-     color:rgba(0, 0, 0, 0.671);
+     color:rgba(80, 75, 75, 0.699);
      background-color: rgb(255, 255, 255);
      font-size: 1.35rem;
      height: 2rem;
@@ -571,8 +617,8 @@ button.send-btn:hover{
 
 }
 
- /*------------Alert--------
- footer parts css starts*/
+ /*--------------------------Alert--------
+ --------------------------------FOOTER CSS STARTS--------------*/
  
 footer{
     display: flex;
@@ -582,21 +628,22 @@ footer{
     background-color: rgb(31, 29, 29);
     padding: 50px;
     font-weight: lighter;
+    margin-top: 50px;
 }
 
-/***nav footer links ***/
+/***-----------------------------NAV FOOTER LINKS------------------***/
 a.footer-links{
     color:rgba(255, 255, 255, 0.308);
     text-decoration: none;
-    font-size: 1.15rem;
+    font-size: 1.1rem;
     padding: 0px 15px;
 }
 
-/**nav footer links hover effects **/
+/**------------------------NAV FOOTER LINKS WITH HOVER---------------------**/
 a.footer-links:hover{
     color:white;
 }
- /*social-media-icons section*/
+ /*----------------------SOCIAL-MEDIA-ICONS FOR FOOTER------------------------*/
  .social-media-icons{
     justify-content: right;
      border: px solid white;
@@ -622,7 +669,7 @@ a.footer-links:hover{
  }
  
  
- /*last copyright h3 section*/
+ /*------------------------LAST COPYRIGHT ARTICLE SECTION-------------------*/
    article.copyright{
      text-align: center;
      margin: 0px;
