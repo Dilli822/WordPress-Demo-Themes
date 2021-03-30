@@ -1,4 +1,69 @@
+/*----------------------------------------------------------------***/
+@media only screen and (min-width:900px) and (max-width: 1440px){
+  
+    h1{
+        color:orange;
+    }
 
+    button.btn1{
+        margin-left: 450px;
+    }
+
+    .hr-style-line,
+    .hr-style-line1,
+    .hr-style-line2,
+    .hr-style-line3{
+        margin-left: 600px;
+        width: 15%;
+    }
+    .location-branches{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        border: px solid red;
+    }
+    img.branch-img{
+        width: 550px;
+    }
+    .meals-wrap{
+     display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border: px solid red;
+        width: 98%;
+    }
+   /***------------------FIGURE WITH MOBILE APPS LINKS-----------------------------*/
+   figure.mobile-apps{
+    margin-left: 600px;
+    margin-top: -200px;
+
+}
+   
+    .live-music-part{ 
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        background-color: black;
+      
+    }
+    
+    /**--------------------------------------VIDEO STYLE----------------------------------------- **/
+    #video{
+        width: 100%;
+        border: 1px solid white;
+        margin: 0px;
+      
+    }
+    #comment{
+        width: 65%;
+    }
+
+
+}
+    
+
+   
 /*--------------------------------------------*/
 /**FOR SMALLER PHONE SCREEN SIZES MAX 400PX**/
 
@@ -588,6 +653,70 @@ a.footer-links:hover{
      color:rgba(245, 245, 245, 0.247);
  }
 
+}
+/*----------------------------------------------------------------***/
+@media only screen and (min-width:1024px) and (max-width: 1366px){
+/**---------------------HR LINE FOR ORANGERED STYLE CSS IMPORTANT BORDER-LINE--------------------*/
+
+.banner-part{
+    height: 650px;
+}
+
+.hr-style-line,
+.hr-style-line1,
+ .hr-style-line2,
+.hr-style-line3{
+    border-bottom: 2px solid orangered;
+    width: 10%;
+    margin-left: 450px;
+    padding: 0px;
+    margin-top: 15px;
+}
+  /**-----------------------------BRANCH FIGURE-------------------------------**/
+    
+     /*BRANCHES--------------------------------------------------------------- ***/
+     /**-------BRANCHES PHOTOS-----**/
+     img.branch-img{
+        width: 400px;
+       border: px solid red;
+       }
+
+/*-----------------*CONTACT US OR SIGN UP PART STARTS-----------------------------------------------
+/**-----------------------------------------------------------------------------------------------**/
+  
+.form-part{
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: center;
+  border: px solid;
+ }
+
+#comment{
+    width: 80%;
+   }
+  
+button.send-btn{
+    background-color: rgb(255, 145, 0);
+    font-size: 1rem;
+    border-radius: 25px ;
+    border: 1px solid  rgb(255, 145, 0); 
+    color:white;
+    padding: 0px;
+    width: 25%;
+    height: 3rem;
+    cursor: pointer;
+    margin-left: 0px;
+  
+}
+
+button.send-btn:hover{
+    background-color: rgb(233, 132, 0);
+
+}
+
+.social-media-icons i{
+    font-size: 3.5rem;
+}
 }
 
 
@@ -2949,1176 +3078,240 @@ a.footer-links:hover{
 
 }
 
-
-
-/**FOR PHONE SCREEN SIZES MIN 400PX AND MAX 600PX*
-@media only screen and (min-width: 400px) and (max-width: 600px) {
-    
-    body{
-        color:red;
-    }
-    .logo{
-        border: px solid white;
-        margin-left: 0px;
-        width: 60px;
-        margin-left: 10px;
-    margin-top: 35px;
-    opacity: 0.65;
-    }
-  
- 
-    .main-nav a:not(:first-child) {display: none;}
-    .main-nav a.icon {
-      float: right;
-      display: block;
-    }
-    .main-nav.responsive {position: relative;}
-    .main-nav.responsive a.icon {
-      position: absolute;
-      right: 0;
-      top: 0;
-    }
-    .main-nav.responsive a {
-      float: none;
-      display: block;
-      text-align: left;
-    }
+/*----------------------------------------------------------------***/
+@media only screen and (min-width:1024px) and (max-width: 1366px){
+/**---------------------HR LINE FOR ORANGERED STYLE CSS IMPORTANT BORDER-LINE--------------------*/
 
 .banner-part{
-    height: 500px;
-}
-    /**banner welcome heading*
-    h1{
-        font-size: 2rem;
-        margin-top: 150px;
-        color:rgb(53, 248, 4);
-       
-    }
-    /**btn 1 and btn2*
-    
-button.btn1{
-
-    padding: 10px;
-    width: 100%;
-    color:rgb(255, 255, 255);
-    background-color: orange;
-    border-radius: 15px;
-    border: 1px solid orange;
-    opacity: 1;
-    margin-left: 0px;
-    margin-bottom: 15px;
-    
+    height: 650px;
 }
 
-button.btn2{
-    padding: 10px;
-    font-size: 0.85rem;
-    width: 100%;
-    font-weight: 500;
-    color: whitesmoke;
-    background-color: rgba(95, 95, 95, 0.226);
-    border-radius: 15px;
-    border: 1px solid orange;
-    opacity: 1;
-}
-
-}
-
-/*
-/**FOR SMALL TABLETS SCREEN SIZES MIN 600PX AND MAX 800PX*
-@media only screen and (min-width: 600px) and (max-width: 800px) {
-    
-    body{
-        color:red;
-    }
-    .logo{
-        border: px solid white;
-        margin-left: 0px;
-        width: 60px;
-        margin-left: 10px;
-    margin-top: 35px;
-    opacity: 0.65;
-    }
-  
-
-    .main-nav a:not(:first-child) {display: none;}
-    .main-nav a.icon {
-      float: right;
-      display: block;
-    }
-    .main-nav.responsive {position: relative;}
-    .main-nav.responsive a.icon {
-      position: absolute;
-      right: 0;
-      top: 0;
-    }
-    .main-nav.responsive a {
-      float: none;
-      display: block;
-      text-align: left;
-    }
-
-.banner-part{
-    height: 400px;
-}
-    /**banner welcome heading**
-    h1{
-        font-size: 2rem;
-        margin-top: 150px;
-        color:rgb(248, 73, 4);
-        margin-bottom: 25px;
-       
-    }
-    /**btn 1 and btn2*
-    
-button.btn1{
-    margin-top: 25px;
-    padding: 10px;
-    width: 100%;
-    color:rgb(255, 255, 255);
-    background-color: orange;
-    border-radius: 15px;
-    border: 1px solid orange;
-    opacity: 1;
-    margin-left: 0px;
-    margin-bottom: 15px;
-    
-}
-
-button.btn2{
-    padding: 10px;
-    font-size: 0.85rem;
-    color: whitesmoke;
-    width: 100%;
-    font-weight: 500;
-    background-color: rgba(95, 95, 95, 0.226);
-    border-radius: 15px;
-    border: 1px solid orange;
-    opacity: 1;
-}
-
-/**----------------------------INTRODUCTORY PART STARTS-----------------------*
-
-h2{
-    font-size: 1.5rem;
-    text-align: center;
-    margin-top: 25px;
-    font-weight: lighter;
-    opacity: 0.65;
-    
-}
-/**---------------------HR LINE FOR ORANGERED STYLE CSS IMPORTANT BORDER-LINE--------------------
-.hr-style-line{
-    border-bottom: 2px solid orangered;
-    width:20%;
-    margin-left: 120px;
-    padding: 0px;
-    margin-top: 15px;
-}
-/**-------------------------------FIRST INTRODUCTORY PARAGRAPH ------------------------
-p.p1-intro-paragraph{
-    font-size: 1rem;
-    text-align: left;
-    padding: 0px 25px;
-    margin: 10px 25px;
-    opacity: 0.5;   
-}
-
-/**------------------FOOD DELIVERY AND FOODS GRID IMAGES  SECTION STARTS*------------
-.food-delivery-section{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    border: px solid red;
-    padding: 0px;
+h1{
     margin-top: 0px;
-    width: 100%;
-    
+    color:green;
 }
 
-.open-365days{
-    color: green;
-
-}
-p.info{
-    font-size: 0.5rem;
-    width: 100%;
-}
-
-.open-365days a i{
-    font-size: 1rem;
-}
-
-.ready-30-minutes a i{
-    font-size: 1rem;
-}
-
-.live-music  a i{
-    font-size: 1rem;
-}
-
-
-.order-book a  i{
-    font-size: 1rem;
-}
-/*------------------------------------------------------------------------------
-/*-------MEALS WRAP SECTION I M HUNGRY PART-----------------------------------
-.meals-wrap{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    align-items: flex-start;
-    border: px solid red;
-    background-color: black;
-    width: 100%;
- 
-}
-
-.meals-showcase{
-    border: px solid red; 
-}
-/**--------------HOW IT WORKS & DOWNLOAD APPS SECTION ----------------------
-h4{
-    text-align: center;
-    margin-top: 50px;
-    font-size: 1.5rem;
-    text-transform:uppercase;
-    font-weight: lighter;
-    opacity: 0.6;
-
-  }
-
-/**----HOW IT WORKS SECTION WITH FLEX PROPERTY---------------------
-  .how-it-works{
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      border: px solid green;
-      background-color: rgba(245, 241, 237, 0.445);
-      padding: 50px;
-  }
-  /***---------------HR STYLE LINE 2 HOW IT WORKS---------------
-  .hr-style-line2{
-    border-bottom: 2px solid orangered;
-    width: 25%;
-    margin-left: 120px;
-    padding: 0px;
-    margin-top: 5px;
-    margin-bottom: 15px;
-  }
-  /**--------------------LEFT IPHONE DOWNLOAD APP FIGURE-----------
-  figure.image-compare-iphone-12-pro{
-    border: px solid greenyellow;
-   margin-left: 20px;
-  }
-   /**------------------------SPAN CIRCLE DOTS----------------------- 
-   span.dot{
-    height: 45px;
-    width: 45px;
-    border-radius: 50%;
-    margin: 40px 0px;
-    display: inline-block;
-    border: 2px solid  rgba(255, 68, 0, 0.877);
- }
-
- /**--------------------------DOT HOVER EFFECTS---------------------------
- span.dot:hover{
-     transition-delay: 45ms;
-     background-color: rgba(255, 68, 0, 0.877);
- }
-
- /**-------------------------INNER ARTICLE OPTIONS---------------------
- article.options{
-     border: px solid red;
-     margin-left: 80px;
-     margin-top: -95px;
-     font-size: 1.3rem;
-     width: 50%;
-     opacity: 0.6;
- }
-
- /***------------------FIGURE WITH MOBILE APPS LINKS-----------------------------
-     margin-left: 30px;
-     margin-top: 10px;
-
- }
- img.appstore:hover,
- img.google-playstore:hover{
-     transform: scale(1.15);
- }
-
- /**---------------------------OUR LOCATION AND BRANCHES----------------------
-     /***--------------------------HEADER OF LOCATION & BRANCHES-----------------
-     h4{
-        margin-bottom: 20px;
-        margin-top: 80px;
-        border: px solid green;
-        font-size: 1.75rem;
-    }
-     /**-----------------------HR STYLE LINE 3 HOW IT WORKS---------------------
-     .hr-style-line3{
-       border-bottom: 2px solid orangered;
-       width: 25%;
-       margin-left: 120px;
-       padding: 0px;
-       margin-top: 5px;
-       margin-bottom: 50px;
-   }
-    .location-branches{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        border: px solid red;
-    }
-    /**-----------------------------BRANCH FIGURE-------------------------------
- /*BRANCHES--------------------------------------------------------------- 
- img.branch-img{
-     width: 50px;
- }
- .branch1{
-    font-size: 1rem;
-    border: px solid red;
-    padding: 0px;
-  
- 
-}
-.branch2{
-   
-   font-size: 1rem;
-   border: px solid red;
-   padding: 0px;
- 
-  
-}
-.branch3{
-   font-size: 1rem;
-   border: px solid red;
-   padding: 0px;
- 
-   
-}
-.branch4{
-   font-size: 1rem;
-   border: 2px solid red;
-   padding:0px;
-
-  
-}
-
- /**-------------------------------BRANCH ELEMENTS---------------------------------
- h6{
-    text-align: left;
-   font-weight: lighter;
-   padding: 0px;
-   margin: 0px;
-   border: 2px solid;
-   opacity: 0.5;
-}
-/** ------------------------------FACEBOOK-ICONS FOR BRANCHES-------------------------------
-i.fa{
-    color:orangered;  
-}
-
-/**--------------------------SHORT BRIEF OF BRANCHES-------------------------------
-span.branch-info{
-    font-size: 1rem;
-    text-align: center;
-    padding: 0px;
-    margin: 0px;
-    border: 2px solid;
-    opacity: 0.5;
-    }
-
- /***---------------------DIV UNIQUE SECTION WITH BANNER-----------------------------
- .unqiue-review-box{
-     background: url("https://images.pexels.com/photos/7148673/pexels-photo-7148673.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
-     background-size: 100% 100%;
-     height: 550px;
-     opacity: 0.9;
-     color:rgb(255, 255, 255);
-     font-size: 2rem;
-     margin-top: 150px;
-      
- }
-
-/**--------------------HEADER INSIDE THE DIV BOX---------------------------------
- h5{
-    text-align: center;
-    padding-top: 30px;
-    font-size: 1rem;
-    text-transform:uppercase;
-    font-weight: lighter;
-    opacity: 1;
-   
-
-  }
-/**---------------------SHORT SPAN TO VISUALIZE TEXTS-------------------------
-  span.highlight{
-      color:rgb(55, 0, 255);
-      font-weight: bolder;
-  }
-
-/**---------------------------REVIEW PART AS FLEX WRAPPER-----------------------------
-  section.review{
+  /*BRANCHES--------------------------------------------------------------- ***/
+  .location-branches{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
-    font-style: italic;
-    opacity: 1;
-    letter-spacing: 2px;
-    background-color: rgba(245, 245, 245, 0.055);
-      
-  }
-  .review-left{
-    border: px solid;
-    font-size: 0.8rem;
-    width: 100%;
-    margin: 0px;
-   
-  }
+    border: px solid red;
+}   
+  /**-------BRANCHES PHOTOS-----**/
+     img.branch-img{
+        width: 200px;
+       border: 2px solid red;
+       }
 
-  .review-mid{
-    border: px solid;
-    font-size: 0.8rem;
-    width: 100%;
-    margin: 0px;
+       .branch1,
+    .branch2,
+   .branch3,
+   .branch4{
+padding: 0px;
+   }
+
+.hr-style-line,
+.hr-style-line1,
+ .hr-style-line2,
+.hr-style-line3{
+    border-bottom: 2px solid orangered;
+    width: 10%;
+    margin-left: 600px;
+    padding: 0px;
+    margin-top: 15px;
 }
-
-.review-right{
-    border: px solid;
-    font-size: 0.8rem;
-    width: 100%;
-    margin: 0px;
-
-}
-
- /**----------------------------------------LIVE MUSIC PART STARTS-----------------------------
-
+  /**-----------------------------BRANCH FIGURE-------------------------------**/
     
-    /**--------------------------------------VIDEO STYLE-----------------------------------------
-    video{
-        width: 100%;
-        border: 1px solid white;
-      
-    }
+     /*BRANCHES--------------------------------------------------------------- ***/
+     /**-------BRANCHES PHOTOS-----**/
+     img.branch-img{
+        width: 400px;
+       border: px solid red;
+       }
+
+       /**--------------------------------------VIDEO STYLE----------------------------------------- **/
+   /**----------------------------------------LIVE MUSIC PART STARTS------------------------------***/
+
+   .live-music-part{ 
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: black;
+ 
+  
+}
+
+/**--------------------------------------VIDEO STYLE----------------------------------------- **/
+#video{
+    width: 100%;
+    border: 1px solid white;
+  
+}
+
 /*-----------------*CONTACT US OR SIGN UP PART STARTS-----------------------------------------------
-/**----------------------------------------------------------------------------------------------
+/**-----------------------------------------------------------------------------------------------**/
   
 .form-part{
-    display: block;
-    border: px solid;
-   }
-   
-  
-   label{
-       opacity: 0.5;
-       font-size: 1rem;
-       font-weight: lighter;
-       margin-left: 0px;
-   }
-   
-   input{
-       background-color: rgb(255, 255, 255);
-       font-size: 1rem;
-       height: 1rem;
-       border: 1px solid rgb(201, 193, 193);
-       margin: 0px;
-       width: 10px;
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: center;
+  border: px solid;
+ }
+
+#comment{
+    width: 80%;
    }
   
-   select{
-       color:rgba(80, 75, 75, 0.699);
-       background-color: rgb(255, 255, 255);
-       font-size: 1rem;
-       height: 2rem;
-       border: 1px solid rgb(201, 193, 193);
-       width: 10px;
-   }
-   #comment{
-    width: 10px;
-   }
+button.send-btn{
+    background-color: rgb(255, 145, 0);
+    font-size: 1rem;
+    border-radius: 25px ;
+    border: 1px solid  rgb(255, 145, 0); 
+    color:white;
+    padding: 0px;
+    width: 25%;
+    height: 3rem;
+    cursor: pointer;
+    margin-left: 0px;
   
-   button.send-btn{
-      background-color: rgb(255, 145, 0);
-      font-size: 1rem;
-      border-radius: 25px ;
-      border: 1px solid  rgb(255, 145, 0); 
-      color:white;
-      padding: 0px;
-      width: 17%;
-      height: 3rem;
-      cursor: pointer;
-      margin-left: 0px;
-    
-  }
-  
-  button.send-btn:hover{
-      background-color: rgb(233, 132, 0);
-  
-  }
-  
+}
+
+button.send-btn:hover{
+    background-color: rgb(233, 132, 0);
 
 }
 
-/* TABLETS AND LAPTOP SCREEN SIZES between screen 1025px to 600px
-@media only screen and (max-width: 1025px) and (min-width: 601px){
-    
-    body{
-        color:red;
-    }
-    .logo{
-        border: px solid white;
-        margin-left: 0px;
-        width: 60px;
-        margin-left: 10px;
-    margin-top: 35px;
-    opacity: 0.65;
-    }
-  
-    /***RESPONISVE NAV BAR FOR MOBILE*
-    .main-nav a:not(:first-child) {display: none;}
-    .main-nav a.icon {
-      float: right;
-      display: block;
-    }
-    .main-nav.responsive {position: relative;}
-    .main-nav.responsive a.icon {
-      position: absolute;
-      right: 0;
-      top: 0;
-    }
-    .main-nav.responsive a {
-      float: none;
-      display: block;
-      text-align: left;
-    }
-    /**-----REPSONSIVE NAV BAR ENDS HERE-----*
-
-.banner-part{
-    height: 500px;
+.social-media-icons i{
+    font-size: 3.5rem;
 }
-    /**banner welcome heading**
-    h1{
-        font-size: 2rem;
-        margin-top: 150px;
-        color:rgb(0, 255, 115);
+}
+/*----------------------------------------------------------------***/
+@media only screen and (min-width:768px) and (max-width: 1024px){
+    /**---------------------HR LINE FOR ORANGERED STYLE CSS IMPORTANT BORDER-LINE--------------------*/
+    
+    .banner-part{
+        height: 650px;
+    }
+    
+    .hr-style-line,
+    .hr-style-line1,
+     .hr-style-line2,
+    .hr-style-line3{
+        border-bottom: 2px solid orangered;
+        width: 10%;
+        margin-left: 450px;
+        padding: 0px;
+        margin-top: 15px;
+    }
+      /**-----------------------------BRANCH FIGURE-------------------------------**/
         
-    }
-    /**btn 1 and btn2
+         /*BRANCHES--------------------------------------------------------------- ***/
+         /**-------BRANCHES PHOTOS-----**/
+         img.branch-img{
+            width: 400px;
+           border: px solid red;
+           }
     
-button.btn1{
-    padding: 10px;
-    width: 100%;
-    color:rgb(255, 255, 255);
-    background-color: orange;
-    border-radius: 15px;
-    border: 1px solid orange;
-    opacity: 1;
-    margin-left:0px;
-    margin-bottom: 10px;
-    margin-top: 55px;
-    
-}
-
-button.btn2{
-    padding: 10px;
-    font-size: 0.85rem;
-    width: 100%;
-    color:rgb(255, 255, 255);
-    font-weight: 500;
-    background-color: rgba(95, 95, 95, 0.226);
-    border-radius: 15px;
-    border: 1px solid orange;
-    opacity: 1;
-}
-/**buttons hover 
-button.btn1:hover{
-    transition-property: 500ms;
-    background-color: rgba(255, 166, 0, 0.911);
-
-}
-button.btn2:hover{
-    color:rgb(255, 255, 255);
-    transition-property: 500ms;
-    background-color: rgba(250, 141, 39, 0.925);
-
-}
-/**----------------------------INTRODUCTORY PART STARTS----------------------
-
-h2{
-    font-size: 1.5rem;
-    text-align: center;
-    margin-top: 25px;
-    font-weight: lighter;
-    opacity: 0.65;
-    
-}
-/**---------------------HR LINE FOR ORANGERED STYLE CSS IMPORTANT BORDER-LINE-------------------
-.hr-style-line{
-    border-bottom: 2px solid orangered;
-    width:20%;
-    margin-left: 120px;
-    padding: 0px;
-    margin-top: 15px;
-}
-/**-------------------------------FIRST INTRODUCTORY PARAGRAPH -----------------------
-p.p1-intro-paragraph{
-    font-size: 1rem;
-    text-align: left;
-    padding: 0px 25px;
-    margin: 10px 25px;
-    opacity: 0.5;   
-}
-
-/**------------------FOOD DELIVERY AND FOODS GRID IMAGES  SECTION STARTS*------------
-.food-delivery-section{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    border: px solid red;
-    padding: 0px;
-    margin-top: 0px;
-    width: 100%;
-    
-}
-
-.open-365days{
-    color: green;
-
-}
-p.info{
-    font-size: 0.5rem;
-    width: 100%;
-}
-
-.open-365days a i{
-    font-size: 1rem;
-}
-
-.ready-30-minutes a i{
-    font-size: 1rem;
-}
-
-.live-music  a i{
-    font-size: 1rem;
-}
-
-
-.order-book a  i{
-    font-size: 1rem;
-}
-/*-----------------------------------------------------------------------------
-/*-------MEALS WRAP SECTION I M HUNGRY PART-----------------------------------
-.meals-wrap{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    align-items: flex-start;
-    border: px solid red;
-    background-color: black;
-    width: 100%;
- 
-}
-
-.meals-showcase{
-    border: px solid red; 
-}
-/**--------------HOW IT WORKS & DOWNLOAD APPS SECTION -----------------------
-h4{
-    text-align: center;
-    margin-top: 50px;
-    font-size: 1.5rem;
-    text-transform:uppercase;
-    font-weight: lighter;
-    opacity: 0.6;
-
-  }
-
-/**----HOW IT WORKS SECTION WITH FLEX PROPERTY----------------------
-  .how-it-works{
+    /*-----------------*CONTACT US OR SIGN UP PART STARTS-----------------------------------------------
+    /**-----------------------------------------------------------------------------------------------**/
+      
+    .form-part{
       display: flex;
-      flex-wrap: wrap;
+      flex-wrap:wrap;
       justify-content: center;
-      border: px solid green;
-      background-color: rgba(245, 241, 237, 0.445);
-      padding: 50px;
-  }
-  /***---------------HR STYLE LINE 2 HOW IT WORKS---------------
-  .hr-style-line2{
-    border-bottom: 2px solid orangered;
-    width: 25%;
-    margin-left: 120px;
-    padding: 0px;
-    margin-top: 5px;
-    margin-bottom: 15px;
-  }
-  /**--------------------LEFT IPHONE DOWNLOAD APP FIGURE-----------
-  figure.image-compare-iphone-12-pro{
-    border: px solid greenyellow;
-   margin-left: 20px;
-  }
-   /**------------------------SPAN CIRCLE DOTS-----------------------
-   span.dot{
-    height: 45px;
-    width: 45px;
-    border-radius: 50%;
-    margin: 40px 0px;
-    display: inline-block;
-    border: 2px solid  rgba(255, 68, 0, 0.877);
- }
-
- /**--------------------------DOT HOVER EFFECTS--------------------------
- span.dot:hover{
-     transition-delay: 45ms;
-     background-color: rgba(255, 68, 0, 0.877);
- }
-
- /**-------------------------INNER ARTICLE OPTIONS---------------------
- article.options{
-     border: px solid red;
-     margin-left: 80px;
-     margin-top: -95px;
-     font-size: 1.3rem;
-     width: 50%;
-     opacity: 0.6;
- }
-
- /***------------------FIGURE WITH MOBILE APPS LINKS----------------------------
- figure.mobile-apps{
-     margin-left: 30px;
-     margin-top: 10px;
-
- }
- img.appstore:hover,
- img.google-playstore:hover{
-     transform: scale(1.15);
- }
-
- /**---------------------------OUR LOCATION AND BRANCHES---------------------
-     /***--------------------------HEADER OF LOCATION & BRANCHES------------------
-     h4{
-        margin-bottom: 20px;
-        margin-top: 80px;
-        border: px solid green;
-        font-size: 1.75rem;
-    }
-     /**-----------------------HR STYLE LINE 3 HOW IT WORKS---------------------
-     .hr-style-line3{
-       border-bottom: 2px solid orangered;
-       width: 25%;
-       margin-left: 120px;
-       padding: 0px;
-       margin-top: 5px;
-       margin-bottom: 50px;
-   }
-    .location-branches{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        border: px solid red;
-    }
-    /**-----------------------------BRANCH FIGURE------------------------------
- /*BRANCHES---------------------------------------------------------------
- img.branch-img{
-     width: 50px;
- }
- .branch1{
-    font-size: 1rem;
-    border: px solid red;
-    padding: 0px;
-  
- 
-}
-.branch2{
-   
-   font-size: 1rem;
-   border: px solid red;
-   padding: 0px;
- 
-  
-}
-.branch3{
-   font-size: 1rem;
-   border: px solid red;
-   padding: 0px;
- 
-   
-}
-.branch4{
-   font-size: 1rem;
-   border: 2px solid red;
-   padding:0px;
-
-  
-}
-
- /**-------------------------------BRANCH ELEMENTS---------------------------------
- h6{
-    text-align: left;
-   font-weight: lighter;
-   padding: 0px;
-   margin: 0px;
-   border: 2px solid;
-   opacity: 0.5;
-}
-/** ------------------------------FACEBOOK-ICONS FOR BRANCHES-------------------------------
-i.fa{
-    color:orangered;  
-
-/**--------------------------SHORT BRIEF OF BRANCHES-------------------------------
-span.branch-info{
-    font-size: 1rem;
-    text-align: center;
-    padding: 0px;
-    margin: 0px;
-    border: 2px solid;
-    opacity: 0.5;
-    }
-
- /***---------------------DIV UNIQUE SECTION WITH BANNER-----------------------------
- .unqiue-review-box{
-     background: url("https://images.pexels.com/photos/7148673/pexels-photo-7148673.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
-     background-size: 100% 100%;
-     height: 550px;
-     opacity: 0.9;
-     color:rgb(255, 255, 255);
-     font-size: 2rem;
-     margin-top: 150px;
-      
- }
-
-/**--------------------HEADER INSIDE THE DIV BOX---------------------------------
- h5{
-    text-align: center;
-    padding-top: 30px;
-    font-size: 1rem;
-    text-transform:uppercase;
-    font-weight: lighter;
-    opacity: 1;
-   
-
-  }
-/**---------------------SHORT SPAN TO VISUALIZE TEXTS--------------------------
-  span.highlight{
-      color:rgb(55, 0, 255);
-      font-weight: bolder;
-  }
-
-/**---------------------------REVIEW PART AS FLEX WRAPPER------------------------------
-  section.review{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    font-style: italic;
-    opacity: 1;
-    letter-spacing: 2px;
-    background-color: rgba(245, 245, 245, 0.055);
-      
-  }
-  .review-left{
-    border: px solid;
-    font-size: 0.8rem;
-    width: 100%;
-    margin: 0px;
-   
-  }
-
-  .review-mid{
-    border: px solid;
-    font-size: 0.8rem;
-    width: 100%;
-    margin: 0px;
-}
-
-.review-right{
-    border: px solid;
-    font-size: 0.8rem;
-    width: 100%;
-    margin: 0px;
-
-}
-
- /**----------------------------------------LIVE MUSIC PART STARTS------------------------------
-
+      border: px solid;
+     }
     
-    /**--------------------------------------VIDEO STYLE-----------------------------------------
-    video{
-        width: 100%;
-        border: 1px solid white;
+    #comment{
+        width: 80%;
+       }
       
-    }
-/*-----------------*CONTACT US OR SIGN UP PART STARTS-----------------------------------------------
-/**-----------------------------------------------------------------------------------------------
-.form-part{
-    display: block;
-    border: px solid;
-   }
-   
-  
-   label{
-       opacity: 0.5;
-       font-size: 1rem;
-       font-weight: lighter;
-       margin-left: 0px;
-   }
-   
-   input{
-       background-color: rgb(255, 255, 255);
-       font-size: 1rem;
-       height: 1rem;
-       border: 1px solid rgb(201, 193, 193);
-       margin: 0px;
-       width: 10px;
-   }
-  
-   select{
-       color:rgba(80, 75, 75, 0.699);
-       background-color: rgb(255, 255, 255);
-       font-size: 1rem;
-       height: 2rem;
-       border: 1px solid rgb(201, 193, 193);
-       width: 10px;
-   }
-   #comment{
-    width: 10px;
-   }
-  
-   button.send-btn{
-      background-color: rgb(255, 145, 0);
-      font-size: 1rem;
-      border-radius: 25px ;
-      border: 1px solid  rgb(255, 145, 0); 
-      color:white;
-      padding: 0px;
-      width: 17%;
-      height: 3rem;
-      cursor: pointer;
-      margin-left: 0px;
-    
-  }
-  
-  button.send-btn:hover{
-      background-color: rgb(233, 132, 0);
-  
-  }
-  
-
-}
-
-
-/**FOR IPAD PRO SCREENS AND OTHER TABLETS MAX 1366PX AND MIN 1024P
-@media only screen and (max-width: 1366px) and (min-width: 1024px){
-    body{
-        color:red;
-    }
-    .logo{
-        border: px solid white;
+    button.send-btn{
+        background-color: rgb(255, 145, 0);
+        font-size: 1rem;
+        border-radius: 25px ;
+        border: 1px solid  rgb(255, 145, 0); 
+        color:white;
+        padding: 0px;
+        width: 25%;
+        height: 3rem;
+        cursor: pointer;
         margin-left: 0px;
-        width:  110px;
-        margin-left: 10px;
-       margin-top: 0px;
-      opacity: 0.65;
-    }
-
-
-    .main-nav a:not(:first-child) {display: none;}
-    .main-nav a.icon {
-      float: right;
-      display: block;
-    }
-    .main-nav.responsive {position: relative;}
-    .main-nav.responsive a.icon {
-      position: absolute;
-      right: 0;
-      top: 0;
-    }
-    .main-nav.responsive a {
-      float: none;
-      display: block;
-      text-align: left;
-    }
-}
-
-    /*
-    .main-nav {
-        background-color: #333;
-        overflow: hidden;
-      }
       
-      /* Style the links inside the navigation bar 
-      .main-nav a {
-        float: left;
-        display: block;
-        color: #f51212;
-        text-align: center;
-        padding: 14px 16px;
+    }
+    
+    button.send-btn:hover{
+        background-color: rgb(233, 132, 0);
+    
+    }
+    
+    .social-media-icons i{
+        font-size: 3.5rem;
+    }
+    }
+    
+
+    /*----------------------------------------------------------------***/
+@media only screen and (min-width:600px) and (max-width: 800px){
+
+    .banner-part{
+        height: 650px;
+    }
+    
+    .hr-style-line,
+    .hr-style-line1,
+     .hr-style-line2,
+    .hr-style-line3{
+        border-bottom: 2px solid orangered;
+        width: 10%;
+        margin-left: 350px;
+        padding: 0px;
+        margin-top: 15px;
+    }
+      /**-----------------------------BRANCH FIGURE-------------------------------**/
+        
+         /*BRANCHES--------------------------------------------------------------- ***/
+         /**-------BRANCHES PHOTOS-----**/
+         img.branch-img{
+            width: 400px;
+           border: px solid red;
+           }
+    /**FOODS PHOTOS IMAGES SECTION**/
+.meal-photo img{ 
+    width: 80%;}
+    /*-----------------*CONTACT US OR SIGN UP PART STARTS-----------------------------------------------
+    /**-----------------------------------------------------------------------------------------------**/
+    .form-part{
+      display: flex;
+      flex-wrap:wrap;
+      justify-content: center;
+      border: px solid;
+     }
+    
+    #comment{
+        width: 80%;
+       }
+      
+    button.send-btn{
+        width: 25%; 
+    }
+
+    a.footer-links{
+        color:rgba(255, 255, 255, 0.308);
         text-decoration: none;
-        font-size: 17px;
-      }
-      
-      /* Change the color of links on hover 
-      .main-nav a:hover {
-        background-color: rgb(148, 26, 26);
-        color: black;
-      }
-      
-      /* Add an active class to highlight the current page 
-      .main-nav a.active {
-        background-color: #1cee23;
-        color: white;
-      }
-      
-      /* Hide the link that should open and close the topnav on small screens 
-      .main-nav .icon {
-        display: none;
-      }
-  /***
-    .main-nav li{
-        display: inline-flex;
-        padding-top: 45px;
-        margin-left: 0px;
-        border: px solid white;
-        justify-content: center;
-        margin-right: 0px; 
+        font-size: 1.1rem;
+        padding: 0px 15px;
     }
 
-    .main-nav li a:link,
-    .main-nav li a:visited{
-        padding: 0px 8px;
-        font-size: 1.35rem;
-    }
-
-    .main-nav a:not(:first-child) {display: none;}
-  .main-nav a.icon {
-    float: right;
-    display: block;
-  }
-
-  .main-nav.responsive {position: relative;}
-  .main-nav.responsive a.icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-  .main-nav.responsive a {
-    float: none;
-    display: block;
-    text-align: left;
-  }
-}
-*
-
-
-
-.banner-part{
-    height: 700px;
-}
-    /**banner welcome heading**
-    h1{
-        font-size: 2.75rem;
-        margin-top: 150px;
-        color:yellow;
-        
-    }
-    /**btn 1 and btn2*
-    button.btn1{
-        padding: 10px;
-        width: 40%;
-        color:rgb(255, 255, 255);
-        background-color: orange;
-        border-radius: 15px;
-        border: 1px solid orange;
-        opacity: 1;
-        margin-left: 50px;
-        margin-bottom: 10px;
-        margin-top: 55px;
-        
-    }
-    
-    button.btn2{
-        padding: 10px;
-        font-size: 0.85rem;
-        width: 40%;  
-        color:rgb(255, 255, 255);  
-        font-weight: 500;
-        background-color: rgba(95, 95, 95, 0.226);
-        border-radius: 15px;
-        border: 1px solid orange;
-        opacity: 1;
-    }
+    button.send-btn:hover{
+        background-color: rgb(233, 132, 0);
     
     }
-
-
-
-
-
-
-/***FOR LARGER DESKTOP SCREEN SIZES MAX 2560 AND MIN 1025PX*/
-/**@media only screen and (max-width: 2560px) and (min-width: 1025px){
     
-    body{
-        color:red;
-    }
-
-    .logo{
-        border: px solid white;
-        margin-left: 0px;
-        width: 150px;
-        margin-left: 10px;
-       margin-top: 35px;
-       opacity: 0.65;
-    }
-  
-    .main-nav li{
-        display: inline-flex;
-        padding-top: 45px;
-        margin-left: 0px;
-        border: px solid white;
-        justify-content: center;
-        margin-right: 0px;
-    }
-
-    .main-nav li a:link,
-    .main-nav li a:visited{
-        padding: 0px 0px;
-        font-size: 2.5rem;
-    }
-
-.banner-part{
-    height: 1080px;
-}
-    /**banner welcome heading
-    h1{
+    .social-media-icons i{
         font-size: 2rem;
-        margin-top: 150px;
-        color:rgb(255, 0, 64);
-        
     }
-    /**btn 1 and btn2
+    }
     
-button.btn1{
-
-    padding: 10px;
-    width: 30%;
-    color:rgb(255, 255, 255);
-    background-color: orange;
-    border-radius: 15px;
-    border: 1px solid orange;
-    opacity: 1;
-    margin-left: 50px;
     
-}button.btn2{
-    padding: 10px;
-    font-size: 0.85rem;
-    width: 40%;
-    color:orange;
-    font-weight: 500;
-    background-color: rgba(95, 95, 95, 0.226);
-    border-radius: 15px;
-    border: 1px solid orange;
-    opacity: 1;
-}}
-
