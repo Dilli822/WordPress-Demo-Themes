@@ -1,10 +1,6 @@
+/*----------------------768PX--TO--1024PX------------------------------------------***/
+@media only screen and (min-width:768px) and (max-width: 1024px){
 
-
-/*---------------------------600PX--TO--800PX------------------------------------
-@media only screen and (min-width:600px) and (max-width: 800px){
-    body{
-        color:red;
-    }
     .logo{
         border: px solid white;
         margin-left: 0px;
@@ -37,20 +33,20 @@
 .banner-part{
     border: px solid red;
     height: 500px;
-    margin: 0px;
+    margin-top: 80px;
     
 }
 
-/**banner welcome heading**
+/**banner welcome heading***/
     h1{
-        font-size: 1.45rem;
+        font-size: 2.5rem;
         margin-top: 150px;
         color:rgb(38, 0, 255);
         margin-bottom: 10px;
         opacity: 0.85;
         letter-spacing: 2px;
     }
-    /**btn 1 and btn2*
+    /**btn 1 and btn2**/
     
 button.btn1{
     padding: 5px;
@@ -76,7 +72,7 @@ button.btn2{
     opacity: 1;
 }
 
-/**----------------------------INTRODUCTORY PART STARTS----------------------
+/**----------------------------INTRODUCTORY PART STARTS-----------------------**/
 
 h2{
     font-size: 1.5rem;
@@ -87,15 +83,15 @@ h2{
     color:rgb(73, 71, 71);
     
 }
-/**---------------------HR LINE FOR ORANGERED STYLE CSS IMPORTANT BORDER-LINE--------------------
+/**---------------------HR LINE FOR ORANGERED STYLE CSS IMPORTANT BORDER-LINE--------------------*/
 .hr-style-line{
     border-bottom: 2px solid orangered;
-    width:25%;
-    margin-left: 200px;
+    width: 15%;
+    margin-left: 330px;
     padding: 0px;
     margin-top: 15px;
 }
-/**-------------------------------FIRST INTRODUCTORY PARAGRAPH ------------------------*
+/**-------------------------------FIRST INTRODUCTORY PARAGRAPH ------------------------**/
 p.p1-intro-paragraph{
     font-size: 1rem;
     text-align: left;
@@ -105,7 +101,7 @@ p.p1-intro-paragraph{
     color:black;
 }
 
-/**------------------FOOD DELIVERY AND FOODS GRID IMAGES  SECTION STARTS*-----------
+/**------------------FOOD DELIVERY AND FOODS GRID IMAGES  SECTION STARTS*-------------*/
 .food-delivery-section{
     display: flex;
     flex-wrap: wrap;
@@ -202,8 +198,8 @@ p.info{
     border-bottom: 1px solid black dashed;
     border: px solid red;
 }
-/*------------------------------------------------------------------------------
-/*-------MEALS WRAP SECTION I M HUNGRY PART-----------------------------------!*
+/*-------------------------------------------------------------------------------*/
+/*-------MEALS WRAP SECTION I M HUNGRY PART-----------------------------------!****/
 .meals-wrap{
     display: flex;
     flex-wrap: wrap;
@@ -220,7 +216,7 @@ p.info{
     margin-left: 8px;
 }
 
-/**--------------HOW IT WORKS & DOWNLOAD APPS SECTION -----------------------*
+/**--------------HOW IT WORKS & DOWNLOAD APPS SECTION -----------------------**/
 h4{
     text-align: center;
     color:rgb(90, 88, 88);
@@ -233,7 +229,8 @@ h4{
 
   }
 
-/**----HOW IT WORKS SECTION WITH FLEX PROPERTY----------------------
+/**----HOW IT WORKS SECTION WITH FLEX PROPERTY----------------------**/
+  .how-it-works{
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
@@ -242,18 +239,18 @@ h4{
       padding: 50px;
   }
 
-  /***---------------HR STYLE LINE 2 HOW IT WORKS----------------
+  /***---------------HR STYLE LINE 2 HOW IT WORKS----------------**/
   .hr-style-line2{
     border-bottom: 2px solid orangered;
-    width: 25%;
-    margin-left: 220px;
+    width: 10%;
+    margin-left: 330px;
     padding: 0px 0px;
     margin-top: 0px;
     margin-bottom: 15px;
   }
 
 
-  /**--------------------LEFT IPHONE DOWNLOAD APP FIGURE------------*
+  /**--------------------LEFT IPHONE DOWNLOAD APP FIGURE------------**/
   figure.image-compare-iphone-12-pro{
     border: px solid greenyellow;
    margin-left: 0px;
@@ -267,7 +264,7 @@ h4{
    width: 100%;
   }
 
-   /**------------------------SPAN CIRCLE DOTS----------------------- 
+   /**------------------------SPAN CIRCLE DOTS----------------------- **/
    span.dot{
     height: 50px;
     width: 20px;
@@ -275,30 +272,30 @@ h4{
     border-radius: 50%;
     margin: 40px 0px;
     border: 1.5px solid  rgba(255, 68, 0, 0.877);
-    width: 8%;
+    width: 6%;
  }
 
- /**--------------------------DOT HOVER EFFECTS---------------------------
+ /**--------------------------DOT HOVER EFFECTS---------------------------**/
  span.dot:hover{
      transition-delay: 45ms;
      background-color: rgba(255, 68, 0, 0.877);
  }
 
- /**-------------------------INNER ARTICLE OPTIONS--------------------- 
+ /**-------------------------INNER ARTICLE OPTIONS--------------------- **/
  article.options{
      border: px solid red;
      margin-left: 50px;
-     margin-top: -95px;
+     margin-top: -85px;
      font-size: 1.1rem;
-     width: 100%;
+     width: 60%;
      opacity: 0.6;
      color:rgb(63, 63, 63);
  }
 
- /***------------------FIGURE WITH MOBILE APPS LINKS-----------------------------
+ /***------------------FIGURE WITH MOBILE APPS LINKS-----------------------------*/
  figure.mobile-apps{
-     margin-left: 30px;
-     margin-top: 10px;
+     margin-left: 0px;
+     margin-top: 0px;
      border: px solid orange;
 
  }
@@ -309,12 +306,12 @@ h4{
      transform: scale(1.15);
  }
 
- /**---------------------------OUR LOCATION AND BRANCHES----------------------
- /**-----------------------HR STYLE LINE 3 HOW IT WORKS--------------------
+ /**---------------------------OUR LOCATION AND BRANCHES----------------------**/
+ /**-----------------------HR STYLE LINE 3 HOW IT WORKS---------------------*/
      .hr-style-line3{
        border-bottom: 2px solid orangered;
-       width: 20%;
-       margin-left: 230px;
+       width: 10%;
+       margin-left: 330px;
        padding: 0px;
        margin-top: 5px;
        margin-bottom: 50px;
@@ -326,10 +323,10 @@ h4{
         border: px solid red;
         font-size: 1rem;
     }
-    /**-----------------------------BRANCH FIGURE-------------------------------
-    /*BRANCHES--------------------------------------------------------------- *
+    /**-----------------------------BRANCH FIGURE-------------------------------**/
+    /*BRANCHES--------------------------------------------------------------- ***/
     img.branch-img{
-     width: 250px;
+     width: 350px;
     border: px solid red;
     }
 
@@ -337,29 +334,29 @@ h4{
     .branch1{
     font-size: 1.15rem;
     border: px solid red;
-    padding: 5px;
+    padding: 10px;
    }
 
    .branch2{
    
    font-size: 1rem;
    border: px solid red;
-   padding: 5px;  
+   padding: 10px;  
    }
 
    .branch3{
    font-size: 1rem;
    border: px solid red;
-   padding: 5px;  
+   padding: 10px;  
     }
 
    .branch4{
    font-size: 1rem;
    border: px solid red;
-   padding:5px; 
+   padding:10px; 
    }
 
- /**-------------------------------BRANCH ELEMENTS---------------------------------**
+ /**-------------------------------BRANCH ELEMENTS---------------------------------***/
  h6{
    text-align: left;
    font-weight: lighter;
@@ -370,14 +367,14 @@ h4{
    font-size: 1.35rem;
    color:rgb(68, 64, 64);
 }
-/** ------------------------------FACEBOOK-ICONS FOR BRANCHES------------------------------
+/** ------------------------------FACEBOOK-ICONS FOR BRANCHES-------------------------------**/
 i.fa{
     color:orangered;  
     
 }
 
 
-/**--------------------------SHORT BRIEF OF BRANCHES--------------------------------
+/**--------------------------SHORT BRIEF OF BRANCHES--------------------------------**/
 span.branch-info{
     font-size: 1rem;
     text-align: center;
@@ -389,7 +386,7 @@ span.branch-info{
 
     }
 
- /***---------------------DIV UNIQUE SECTION WITH BANNER-----------------------------*
+ /***---------------------DIV UNIQUE SECTION WITH BANNER-----------------------------***/
  .unqiue-review-box{
      background: url("https://images.pexels.com/photos/7148673/pexels-photo-7148673.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
      background-size: 100% 100%;
@@ -400,7 +397,8 @@ span.branch-info{
      margin-top: 150px;
       
  }
-/**--------------------HEADER INSIDE THE DIV BOX---------------------------------*
+
+/**--------------------HEADER INSIDE THE DIV BOX---------------------------------**/
  h5{
     text-align: center;
     padding-top: 180px;
@@ -410,14 +408,14 @@ span.branch-info{
     opacity: 1;
    
 
- }
-/**---------------------SHORT SPAN TO VISUALIZE TEXTS--------------------------*
+  }
+/**---------------------SHORT SPAN TO VISUALIZE TEXTS--------------------------**/
   span.highlight{
       color:rgb(55, 0, 255);
       font-weight: bolder;
   }
 
-/**---------------------------REVIEW PART AS FLEX WRAPPER---------------------------
+/**---------------------------REVIEW PART AS FLEX WRAPPER------------------------------**/
   section.review{
     display: flex;
     flex-wrap: wrap;
@@ -452,20 +450,17 @@ span.branch-info{
 
 }
 
- /**----------------------------------------LIVE MUSIC PART STARTS------------------------------  
-/**--------------------------------------VIDEO STYLE-----------------------------------------
+ /**----------------------------------------LIVE MUSIC PART STARTS------------------------------***/   
+/**--------------------------------------VIDEO STYLE----------------------------------------- **/
     video{
         width: 100%;
         border: 1px solid white;
       
     }
-/*-----------------*CONTACT US OR SIGN UP PART STARTS----------------------------------------------
-/**-----------------------------------------------------------------------------------------------
+/*-----------------*CONTACT US OR SIGN UP PART STARTS-----------------------------------------------
+/**-----------------------------------------------------------------------------------------------**/
   
-.form-part{
-    display: block;
-    border: px solid;
-   }
+
    
   
    label{
@@ -505,7 +500,7 @@ span.branch-info{
       border: 1px solid  rgb(255, 145, 0); 
       color:white;
       padding: 0px;
-      width: 100%;
+      width: 30%;
       height: 3rem;
       cursor: pointer;
       margin-left: 0px;
@@ -519,7 +514,7 @@ span.branch-info{
 
   
  /*--------------------------Alert--------
- --------------------------------FOOTER CSS STARTS-------------
+ --------------------------------FOOTER CSS STARTS--------------*/
  
 footer{
     display: flex;
@@ -531,7 +526,7 @@ footer{
     margin-top: 50px;
 }
 
-/***-----------------------------NAV FOOTER LINKS------------------*
+/***-----------------------------NAV FOOTER LINKS------------------***/
 a.footer-links{
     display: block;
     color:rgba(255, 255, 255, 0.308);
@@ -542,11 +537,11 @@ a.footer-links{
     border: px solid white;
 }
 
-/**------------------------NAV FOOTER LINKS WITH HOVER---------------------
+/**------------------------NAV FOOTER LINKS WITH HOVER---------------------**/
 a.footer-links:hover{
     color:white;
 }
- /*----------------------SOCIAL-MEDIA-ICONS FOR FOOTER-----------------------
+ /*----------------------SOCIAL-MEDIA-ICONS FOR FOOTER------------------------*/
  .social-media-icons{
      display: block;
      border: px solid white;
@@ -575,7 +570,7 @@ a.footer-links:hover{
  }
  
  
- /*------------------------LAST COPYRIGHT ARTICLE SECTION-------------------
+ /*------------------------LAST COPYRIGHT ARTICLE SECTION-------------------*/
    article.copyright{
      text-align: center;
      margin: 0px;
@@ -587,198 +582,3 @@ a.footer-links:hover{
  }
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-   
-
-/*------------------768PX --TO --1024PX-----------------------------------------------
-@media only screen and (min-width:768px) and (max-width: 1024px){
-    /**---------------------HR LINE FOR ORANGERED STYLE CSS IMPORTANT BORDER-LINE--------------------
-    
-    .banner-part{
-        height: 650px;
-    }
-    
-    .hr-style-line,
-    .hr-style-line1,
-     .hr-style-line2,
-    .hr-style-line3{
-        border-bottom: 2px solid orangered;
-        width: 10%;
-        margin-left: 450px;
-        padding: 0px;
-        margin-top: 15px;
-    }
-      /**-----------------------------BRANCH FIGURE-------------------------------
-        
-         /*BRANCHES--------------------------------------------------------------- *
-         img.branch-img{
-            width: 400px;
-           border: px solid red;
-           }
-    
-    /*-----------------*CONTACT US OR SIGN UP PART STARTS-----------------------------------------------
-    /**-----------------------------------------------------------------------------------------------
-      
-    .form-part{
-      display: flex;
-      flex-wrap:wrap;
-      justify-content: center;
-      border: px solid;
-     }
-    
-    #comment{
-        width: 80%;
-       }
-      
-    button.send-btn{
-        background-color: rgb(255, 145, 0);
-        font-size: 1rem;
-        border-radius: 25px ;
-        border: 1px solid  rgb(255, 145, 0); 
-        color:white;
-        padding: 0px;
-        width: 25%;
-        height: 3rem;
-        cursor: pointer;
-        margin-left: 0px;
-      
-    }
-    
-    button.send-btn:hover{
-        background-color: rgb(233, 132, 0);
-    
-    }
-    
-    .social-media-icons i{
-        font-size: 3.5rem;
-    }
-    }
-    
-
- 
-
-/*-----------1024PX--TO--1366PX-----------------------------------------------------
-@media only screen and (min-width:1024px) and (max-width: 1366px){
-    /**---------------------HR LINE FOR ORANGERED STYLE CSS IMPORTANT BORDER-LINE-------------------
-    
-    .banner-part{
-        height: 650px;
-    }
-    
-    h1{
-        margin-top: 0px;
-        color:green;
-    }
-    
-      /*BRANCHES--------------------------------------------------------------- 
-      .location-branches{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        border: px solid red;
-    }   
-      /**-------BRANCHES PHOTOS-----*
-         img.branch-img{
-            width: 200px;
-           border: 2px solid red;
-           }
-    
-           .branch1,
-        .branch2,
-       .branch3,
-       .branch4{
-    padding: 0px;
-       }
-    
-    .hr-style-line,
-    .hr-style-line1,
-     .hr-style-line2,
-    .hr-style-line3{
-        border-bottom: 2px solid orangered;
-        width: 10%;
-        margin-left: 600px;
-        padding: 0px;
-        margin-top: 15px;
-    }
-      /**-----------------------------BRANCH FIGURE------------------------------
-        ***/
-         /**-------BRANCHES PHOTOS-----*
-         img.branch-img{
-            width: 400px;
-           border: px solid red;
-           }
-    
-           /**--------------------------------------VIDEO STYLE-----------------------------------------
-       /**----------------------------------------LIVE MUSIC PART STARTS-----------------------------
-    
-       .live-music-part{ 
-        display: flex;
-        flex-wrap: wrap;
-        width: 100%;
-        background-color: black;
-     
-      
-    }
-    
-    /**--------------------------------------VIDEO STYLE----------------------------------------- *
-    #video{
-        width: 100%;
-        border: 1px solid white;
-      
-    }
-    
-    /*-----------------*CONTACT US OR SIGN UP PART STARTS-----------------------------------------------
-    /**-----------------------------------------------------------------------------------------------
-      
-    .form-part{
-      display: flex;
-      flex-wrap:wrap;
-      justify-content: center;
-      border: px solid;
-     }
-    
-    #comment{
-        width: 80%;
-       }
-      
-    button.send-btn{
-        background-color: rgb(255, 145, 0);
-        font-size: 1rem;
-        border-radius: 25px ;
-        border: 1px solid  rgb(255, 145, 0); 
-        color:white;
-        padding: 0px;
-        width: 25%;
-        height: 3rem;
-        cursor: pointer;
-        margin-left: 0px;
-      
-    }
-    
-    button.send-btn:hover{
-        background-color: rgb(233, 132, 0);
-    
-    }
-    
-    .social-media-icons i{
-        font-size: 3.5rem;
-    }
-    }
-    
-
-

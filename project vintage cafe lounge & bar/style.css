@@ -103,7 +103,7 @@ button.btn1{
     opacity: 1;
     margin-left: 650px;
 }
-/**---------------------------BUTTO---------------------------*/
+/**---------------------------BUTTON2---------------------------*/
 button.btn2{
     padding: 10px;
     width: 15%;
@@ -247,9 +247,9 @@ p.info{
     font-size: 6rem; 
     opacity: 0.65;
 }
-/*-------------------------------------------------------------------------------*/
-/*-------MEALS WRAP SECTION I M HUNGRY PART-----------------------------------!****/
-.meals-wrap{
+  /*-------------------------------------------------------------------------------*/
+  /*-------MEALS WRAP SECTION I M HUNGRY PART-----------------------------------!****/
+   .meals-wrap{
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
@@ -258,27 +258,27 @@ p.info{
     background-color: black;
     width: 100%;
  
-}
+    }
 
-.meals-showcase{
+   .meals-showcase{
     border: px solid red; 
-}
+   }
 
-/**FOODS PHOTOS IMAGES SECTION**/
-.meal-photo img{ 
+   /**FOODS PHOTOS IMAGES SECTION**/
+   .meal-photo img{ 
     -webkit-transform: scale(1.15);
     -ms-transform: scale(1.15);/*FOR ALL BROWSER*/
     transform: scale(1.15);
     -webkit-transition: -webkit-transform 0.5s, opacity 0.5s;/*FOR ALL BROWSER*/
     transition: transform 0.5s, opacity 0.5s;
-}
+    }
 
-.meal-photo img:hover {
+  .meal-photo img:hover {
     opacity: 1;
     -webkit-transform: scale(1.03); /*FOR ALL BROWSER*/
     -ms-transform: scale(1.03);/*FOR ALL BROWSER*/
     transform: scale(1.03);
-}
+  }
 
 /**--------------HOW IT WORKS & DOWNLOAD APPS SECTION -----------------------**/
      h4{
@@ -349,6 +349,7 @@ p.info{
          margin-top: -70px;
 
      }
+
      img.appstore:hover,
      img.google-playstore:hover{
          transform: scale(1.15);
@@ -361,7 +362,8 @@ p.info{
          margin-top: 80px;
          border: px solid green;
      }
-      /**-----------------------HR STYLE LINE 3 HOW IT WORKS---------------------*/
+
+    /**-----------------------HR STYLE LINE 3 HOW IT WORKS---------------------*/
       .hr-style-line3{
         border-bottom: 2px solid orangered;
         width: 8%;
@@ -370,7 +372,7 @@ p.info{
         margin-top: 5px;
         margin-bottom: 50px;
     }
-     .location-branches{
+    .location-branches{
          display: flex;
          flex-wrap: nowrap;
          justify-content: center;
@@ -506,16 +508,18 @@ p.info{
     .live-music-part{ 
         display: flex;
         flex-wrap: wrap;
+        justify-content: right;
         width: 100%;
         background-color: black;
-     
-      
+         
     }
     
     /**--------------------------------------VIDEO STYLE----------------------------------------- **/
     #video{
+        align-items: right;
         width: 100%;
         border: 1px solid white;
+        margin-left: 50px;
       
     }
 
