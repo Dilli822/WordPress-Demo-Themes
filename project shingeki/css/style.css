@@ -56,17 +56,10 @@ div.topnav{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-
+  padding: 50px;
 }
 
 section.season-1{
   widtH: 50%;
   border: 2px solid red;
-  padding: 50px;
- 
-}
-
-section img{
-max-width: 100%;
-margin-left: 25px;
 }

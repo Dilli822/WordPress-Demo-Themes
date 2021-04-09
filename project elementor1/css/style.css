@@ -1,0 +1,14 @@
+
+
+
+.whole-bg-banner{
+    background: url("/images/banner-head.jpg");
+    background-size:100% 100%;
+    height: 400px;
+    color:White;
+}
+
+.description{
+    display: flex;
+    justify-content: flex-end;
+}
