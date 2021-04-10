@@ -1,0 +1,104 @@
+
+
+
+@media only screen and (max-width: 400px){
+    h1{
+      
+        color:rgb(216, 204, 204);
+    }
+    .whole-bg-banner{
+        height: 270px;
+    }
+    
+    .video-bottom{
+        margin-top: -35px;
+    }
+
+    h5{
+        padding-top: 40px;
+        font-size: 1rem;
+    }   
+   
+/**paragraphs***/
+p.lessons-para{
+    font-size: 10px;
+}
+
+/**8section--reviews***/
+section.review{
+    background-color: rgb(197, 197, 197);
+}
+/**star span icons***/
+span.star-icons,
+.fa-star{
+    display: flex;
+    justify-content: center;
+    font-size: 0.5rem;
+    padding: 2px;
+
+    
+}
+aside p.quotes{
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+.hr-line-1,
+.hr-line-2{
+    border-top: 3px solid black;
+    width: 12%;
+    margin: 0px 135px;
+}
+h4{
+    margin: 0px 135px;  
+}
+
+
+
+
+
+.left-feature-pic{
+    width: 80%;
+}
+.right-brief-feature{
+    margin-left: -60px;
+    margin-top: 20px;
+   font-size: 0.65rem;
+   color:black;
+}
+
+p.last-breif{
+    color:rgb(108, 117, 112);
+}
+
+
+h2{
+    font-size: 0.85rem;
+    text-align: left;
+ 
+}
+p.bottom-last-brief{
+    font-weight: bolder;
+    font-size: 0.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+}
+
+/***header para**/
+h3{
+font-size: 0.8rem;
+}
+
+/***REGISTER--BUTTON**/
+button.last-btn{
+    font-size: 0.5rem;
+    background-color: black;
+    color:white;
+}
+
+/**paragraphs***/
+p.lessons-para{
+    font-size: 10px;
+}
+
+}
