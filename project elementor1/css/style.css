@@ -22,8 +22,7 @@ body{
     background-size: 100vmax;
     background-repeat: no-repeat;
     height:  500px;
-    color:White;
-    opacity: 0.65;
+    opacity: 0.85;
     animation-duration: 1s;
     animation-name: scale;
    animation-iteration-count: finite;
@@ -53,13 +52,24 @@ animation-timing-function: linear;
 }
 
 .description{
-    display: flex;
-    justify-content: center;
+    margin: -20px 0px;
 }
 
-h1,h6,h2{
+h1{
     text-align: center;
+    font-size: 4rem;
+    color:black;
 }
+h2{
+    text-align: center;
+    font-weight: bolder;
+}
+
+
+h6{
+     text-align: center;
+     padding: 50px 0px;
+    }
 
 button.btn-order{
     right: 0;
@@ -67,7 +77,8 @@ button.btn-order{
     background-color:black;
     color:white;
     font-size: 1rem;
-    padding: 8px;
+    padding: 8px 15px;
+    text-align: center;
     border: 1px solid rgb(34, 34, 34);
 }
 button.btn-order:hover{
@@ -101,13 +112,13 @@ button.btn-order:hover{
 .Services-wrapper-1,
 .Services-wrapper-2{
     display: flex;
-    border: 2px solid red;
+    border: px solid red;
     justify-content: center;
    
 }
 
 section.lessons{
-    border: 1px solid rgb(0, 0, 0);
+    border: px solid rgb(0, 0, 0);
    
 }
 
@@ -137,6 +148,7 @@ p.last-breif{
 
 h2{
     font-size: 0.85rem;
+    text-align: center;
 }
 
 p.bottom-last-brief{
@@ -146,14 +158,14 @@ p.bottom-last-brief{
 }
 /***header para**/
 h3{
-    
+    text-align: left;
 }
 /**paragraphs***/
 p.lessons-para{
     
 }
 .video{ 
-    border: 1px solid red;
+    border: px solid red;
 }
 
 .video-top{

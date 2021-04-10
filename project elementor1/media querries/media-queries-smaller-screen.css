@@ -8,8 +8,36 @@
     }
     .whole-bg-banner{
         height: 270px;
+     
+    }
+
+    .description{
+        color:white;
+        margin: 0px;
+
+    }
+    p.advertise{
+        font-size: 0.6rem;
+        width: 50%;
+      
     }
     
+    h1{
+        font-size: 1.5rem;
+        color:black;
+    }
+    h2{
+        margin: 0px 67px;
+    }
+   
+    h6{
+         text-align: center;
+         padding: 45px 0px;
+        }
+    
+        button.btn-order{
+            padding: 4px 5px;
+        }
     .video-bottom{
         margin-top: -35px;
     }
