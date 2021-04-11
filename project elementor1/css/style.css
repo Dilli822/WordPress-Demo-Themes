@@ -109,6 +109,16 @@ button.btn-order:hover{
     }
 } */
 
+
+/**==========SLIDESHOW--PART======**/
+.Slideshow{
+    padding: 50px 250px;
+    width: 100%;
+    border: 2px solid red;
+}
+img.mySlides{
+    max-width: 500px;
+}
 .Services-wrapper-1,
 .Services-wrapper-2{
     display: flex;
@@ -160,6 +170,12 @@ p.bottom-last-brief{
 h3{
     text-align: left;
 }
+
+/***======*SLIDESHOW--PART=======-**/
+article.short-intro{
+    text-align: center;
+}
+
 /**paragraphs***/
 p.lessons-para{
     

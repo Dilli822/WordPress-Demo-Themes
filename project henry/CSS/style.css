@@ -1,0 +1,102 @@
+
+
+/*-------**/
+
+
+/*****GOOGLE--FONTS--UBUNTU*****/
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/***FOR ALL IMAGES**/
+img{
+  max-width: 100%;
+}
+/**=====HEADINGS STARTS=====**/
+
+
+/****HEAD LOGO*****/
+.logo-head{
+  width: 80px;
+  margin-left: 50px;
+  margin-top: -20px;
+}
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: rgba(255, 255, 255, 0.514);
+  overflow: hidden;
+  border: 1px solid;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a{
+  float: right;
+  display: block;
+  color: #000000;
+  text-align: center;
+  padding: 5px 8px;
+  text-decoration: none;
+  font-size: 10px;
+  margin: 12px 10px;
+}
+.topnav a:hover{
+  transform: scale(1.1);
+}
+/* Add an active class to highlight the current page */
+.topnav a.active {
+  background-color: #ee250bcb;
+  border-radius: 20px;
+  padding: 12px;
+  color: white;
+  margin-top: 5px;
+  margin-right:  80px;
+}
+/* Add an active class to highlight the current page */
+.topnav a.active:hover {
+  background-color: #f53f3fe3;
+}
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
+
+/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+/**=====BANNER--WITH --BG--IMAGES AND TEXT---***/
+div.banner{
+  background-image: url("https://images.pexels.com/photos/1739748/pexels-photo-1739748.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  height: 90vh;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  margin-top: -30px;
+  background-position: cover;
+}
+
+/**FIRST H1 HEADER==*/
+h1{
+  text-align: center;
+  color:white;
+}
+

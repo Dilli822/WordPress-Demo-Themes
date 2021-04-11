@@ -2,10 +2,7 @@
 
 
 @media only screen and (max-width: 400px){
-    h1{
-      
-        color:rgb(216, 204, 204);
-    }
+    /**==========WHOLE-BG-BANNER======***/
     .whole-bg-banner{
         height: 270px;
      
@@ -14,14 +11,17 @@
     .description{
         color:white;
         margin: 0px;
+        
 
     }
+
     p.advertise{
         font-size: 0.6rem;
         width: 50%;
       
     }
     
+    /**===========HEADER HEADINGS======****/
     h1{
         font-size: 1.5rem;
         color:black;
@@ -34,10 +34,18 @@
          text-align: center;
          padding: 45px 0px;
         }
-    
+    /**========HEAD--BUTTON--=====***/
         button.btn-order{
             padding: 4px 5px;
         }
+   
+    /*===========services section=========***/
+    .Services-wrapper-1,
+    .Services-wrapper-2{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    }
+
     .video-bottom{
         margin-top: -35px;
     }

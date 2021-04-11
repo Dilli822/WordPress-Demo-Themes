@@ -1,0 +1,20 @@
+
+
+@media only screen and (max-width:400px){
+/****HEAD LOGO*****/
+.logo-head{
+    margin-left: 10px;
+    margin-top: -25px;
+  }
+  /* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+    font-size: 1.1rem;
+    margin-top: -0.75px;
+    color:rgba(165, 42, 42, 0.575);
+  }
+  /**=====BANNER--WITH --BG--IMAGES AND TEXT---***/
+div.banner{
+    height: 65vh;
+    margin-top: -50px;
+  }
+}
