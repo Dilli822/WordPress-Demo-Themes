@@ -19,7 +19,7 @@ img{
 .logo-head{
   width: 120px;
   margin-left: 150px;
-  margin-top: -45px;
+  margin-top: -35px;
 }
 
 /* Add a black background color to the top navigation */
@@ -87,7 +87,7 @@ img{
 /**=====BANNER--WITH --BG--IMAGES AND TEXT---***/
 div.banner{
   background-image: url("https://images.pexels.com/photos/1739748/pexels-photo-1739748.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
-  height: 90vh;
+  height: 100vh;
   background-size: 100% 100%;
   background-repeat: no-repeat;
   margin-top: -30px;
@@ -113,17 +113,22 @@ aside.banner-brief{
 /**====WELCOME==PART==STARTS==WITH=PICS***/
 div.welcome-part{
   background-image: url("/images/flower-1.png");
-  height: 50vh;
+  height: 65vh;
   background-repeat: no-repeat;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   width: 100%;
+  border: 1px solid green;
 }
 
 section.welcome-wrap-left{
-  margin: 0px 0px 0px 80px;
-  width: 450px;
+  margin-top: 100px;
+  margin-left: 180px;
+  max-width: 450px;
+  border: px solid red;
+  height: 50vh;
+  font-weight: bolder;
 }
 
  /**KNOW==BTN**/
@@ -140,28 +145,33 @@ button.btn-about-us:hover{
   background-color: rgba(255, 0, 0, 0.808);
 }
 
-section.welcome-wrap-middle,
+img.wrap-img-mid{
+  max-width: 450px;
+  margin: 50px 85px;
+  height: 50vh;
+  border-radius: 25px;
+ 
+}
+
 section.welcome-wrap-right{
   background-image: url("https://scontent.fbir2-1.fna.fbcdn.net/v/t1.6435-9/156746376_1605162496339261_3747726251626896955_n.jpg?_nc_cat=109&ccb=1-3&_nc_sid=8bfeb9&_nc_ohc=lLIA7lRg5AgAX-BQVW-&_nc_ht=scontent.fbir2-1.fna&oh=f277b44b83f3273c0609b7a7b79191f9&oe=609902B9");
   background-size: 100% 100%;
-  margin: 20px 15px;
-  height: 70vh;
-  max-width: 100%;
-  height: 500px;
-  width: 450px;
+  margin: 50px 15px;
+  width: 330px;
   color:white;
-  
-
+  height: 50vh;
+  border-radius: 25px;
 }
 
 
 /**HEADER--ON---WELCOME-WRAPER--**/
 h3{
-  font-size: 1.85rem;
+  font-size: 2.2rem;
   font-family: cursive;
-  margin-top: 16rem;
+  margin-top: 17rem;
   margin-left: 35px;
 }
+
 /**ASIDE--ON-WELCOME-WRAPPER**/
 aside.rountine-time{
   letter-spacing: 2px;
@@ -171,6 +181,94 @@ aside.rountine-time{
   text-align: left;
   opacity: 0.85;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/**MENU--PART--STARTS==FROM==HERE==**/
+/**MENU-FIGURE--**/
+figure.menu-fig{
+  display: flex;
+  justify-content: center;
+}
+/**MWNU HEADER **/
+h4{
+  font-size: 2rem;
+  text-align: center;
+}
+aside.menu-brief{
+  text-align: center;
+}
+
+p.menu-quotes{
+  text-align: center;
+}
+
+/*---**----FOOD-MENU-SECTION---*-*-**/
+div.menu-foods-wrap{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 150px;
+  background-color: #000000;
+  
+}
+
+/*-------FOOD-MENU-SECTION------**/
+section.menu-foods-wrap1{
+  width: 500px;
+  height: 250px;
+  border: 2px solid red;
+  margin-top: -100px;
+  background-color: rgba(86, 194, 92, 0.952);
+}
+
+/*-------FOOD-MENU-SECTION------**/
+section.menu-foods-wrap2{
+  width: 500px;
+  height: 350px;
+  border: 2px solid rgb(0, 255, 13);
+  margin-top: 0px;
+  background-color: brown;
+}
+
+/*------DIV--BTN---***/
+div.btn{
+  display: flex;
+  justify-content: center;
+  background-color: #000000;
+  padding: 25px;
+}
+
+/**BUTTON--FOR--DISCOVER-ENTIRE--**/
+button.btn-discover{
+  border-radius: 25px;
+  padding: 13px;
+  font-size: 1.2rem;
+  border: 0px solid;
+  background-color: #ff0000;
+  color:rgba(255, 255, 255, 0.904);
+}
+button.btn-discover:hover{
+  background-color: #ff0000d5;
+}
+
+/***-DIV---SUNDAY--FEATURES--WITH--WRAPPER-**/
+div.sunday-feature{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+
+/***CLIENT'S REVIEW PART***/
+div.review-part{
+  background-image: url("http://static1.squarespace.com/static/519dc376e4b0726806f1fb72/525f869ee4b0e74990310ae7/53f29c6fe4b09eb7f5874fa8/1408410547423/?format=1500w");
+  height: 100vh;
+  background-repeat: no-repeat;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  opacity: 0.2;
 }
 
 
