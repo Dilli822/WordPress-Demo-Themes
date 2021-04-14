@@ -38,7 +38,7 @@
   }
 /**====WELCOME==PART==STARTS==WITH=PICS***/
 div.welcome-part{
-  height: 140vh;
+  height: 150vh;
 }
 figure.menu-fig{
   margin-top: -110px;
@@ -169,7 +169,7 @@ aside.customer-name{
 }
 /**SOCIAL-MEDIA-ICONS***/
 span.social-media-icons a{
-  padding: 0px 15px;
+  padding: 0px 5px;
   margin: 0px 10px;
 }
 
