@@ -38,9 +38,13 @@ img{
   text-decoration: none;
   font-size: 17px;
   margin: 12px 10px;
+  border-bottom: 2px solid transparent;
+  transition: border-bottom 0.2s;
+  -webkit-transition: border-bottom 0.2s;
 }
 .topnav a:hover{
   transform: scale(1.1);
+  border-bottom: 2px solid red;
 }
 /* Add an active class to highlight the current page */
 .topnav a.active {
@@ -101,7 +105,12 @@ h1{
   color:white;
   padding-top: 50px;
 }
-
+h2{
+  text-align: left;
+  font-size: 2.5rem;
+  font-family: lobster;
+  font-weight: lighter;
+}
 /***===========ASIDE BANNER=============***/
 aside.banner-brief{
   color:white;
@@ -189,12 +198,30 @@ figure.menu-fig{
   display: flex;
   justify-content: center;
   border: px solid red;
+  transform: perspective(800px)
+  rotateY(25deg)
+  scale(0.9)
+  rotateX(10deg);
+  filter: blue(2px);
+  transition: 0.6s ease all;
+}
+
+figure.menu-fig:hover{
+  transform: perspective(800px)
+  rotatey(-150deg)
+  translateY(-50px)
+  rotateX(10deg)
+  scale(1);
+  filter: blur(0);
+  opacity: 1;
 }
 /**MWNU HEADER **/
 h4{
-  font-size: 2rem;
+  font-size: 2.5rem;
   text-align: center;
   border: px solid red;
+  font-family: lobster;
+  font-weight: lighter;
 }
 aside.menu-brief{
   text-align: center;
@@ -208,41 +235,73 @@ p.menu-quotes{
 
 }
 
-/*---**----FOOD-MENU-SECTION---*-*-**/
+/*-------**----FOOD-MENU-SECTION------*-*-**/
 div.menu-foods-wrap{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   margin-top: 150px;
-  background-color: #000000;
-  border: 2px solid red;
-  
+  background-image: url("https://images.pexels.com/photos/376533/pexels-photo-376533.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
 }
 
 /*-------FOOD-MENU-SECTION------**/
 section.menu-foods-wrap1{
   width: 500px;
-  height: 250px;
-  border: 2px solid red;
+  height: 400px;
+  border: px solid red;
   margin-top: -100px;
-  background-color: rgba(86, 194, 92, 0.952);
+  color:white;
+  background-color: rgba(7, 7, 7, 0.952);
+}
+
+/****HEADER H6 FOR FOODS MENU***/
+h6{
+  text-align: center;
+  font-size: 1.5rem;
+}
+/****FOODS SPECIALS PARAGRAPHS**/
+p.foods-specials-para{
+  text-align: center;
+}
+
+/**ASIDE---PRICE--TAG**/
+aside.price-tag{
+  text-align: center;
 }
 
 /*-------FOOD-MENU-SECTION------**/
 section.menu-foods-wrap2{
+  background-image: url("/images/pexels-photo-2351274.jpeg");
   width: 500px;
-  height: 350px;
-  border: 2px solid rgb(0, 255, 13);
+  height: 500px;
+  border: px solid rgb(0, 255, 13);
   margin-top: 0px;
-  background-color: brown;
 }
-
+/*-------FOOD-MENU-SECTION-MIDDLE-WRAP------**/
+section.menu-foods-wrap3{
+  width: 500px;
+  height: 400px;
+  border: px solid rgb(0, 255, 13);
+  margin-top: 0px;
+  color: white;
+}
+/*-------FOOD-MENU-SECTION-MIDDLE-WRAP7------**/
+section.menu-foods-wrap7{
+  width: 500px;
+  height: 400px;
+  border: px solid rgb(0, 255, 13);
+  margin-top: -100px;
+  color: white;
+}
 /*------DIV--BTN---***/
 div.btn{
   display: flex;
   justify-content: center;
   background-color: #000000;
-  padding: 25px;
+  padding:  45px 0px;
+  border-radius: 5px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+  transition: all 15s ease-out 200ms;
 }
 
 /**BUTTON--FOR--DISCOVER-ENTIRE--**/
@@ -262,31 +321,50 @@ button.btn-discover:hover{
 div.sunday-feature{
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
 }
 
+/*SECTION FOR LEFT PHOTO FEATURE***/
+img.feature-left-photo{
+  width: 750px;
+  margin-top: 35px;
+  border-radius: 15px;
+
+}
+/*SECTION FOR RIGHT PHOTO FEATURE***/
+section.feature-right-photo{
+  margin-top: 65px;
+  margin-left: 150px;
+  max-width: 500px;
+}
 
 /***CLIENT'S REVIEW PART***/
 div.review-part{
-  background-image: url("http://static1.squarespace.com/static/519dc376e4b0726806f1fb72/525f869ee4b0e74990310ae7/53f29c6fe4b09eb7f5874fa8/1408410547423/?format=1500w");
-  background-repeat: no-repeat;
-  width: 100%;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-  
+  justify-content: space-between; 
+  padding: 50px 0px;
+  margin: 15px 25px;
 }
-
 
 /***OVAL--IMAGE****/
 img.oval{
   width: 135px;
   height:135px;
   border-radius: 50%;
+  position: relative;
+  animation-name: example;
+  animation-duration: 5s;
 }
+
+@keyframes example {
+  0%   { left:0px; top:0px;}
+  25%  {left:200px; top:0px;}
+}
+
 h5{
-  text-align: center;
-  font-size: 2rem;
+  text-align: left;
+  font-size: 2.5rem;
   font-family: Lobster;
   font-weight: lighter;
 }
@@ -317,12 +395,14 @@ span.social-media-icons a.mail{
 }
 span.social-media-icons a i{
   font-size: 3rem;
+  margin: 0px 5px;
  
 }
 span.social-media-icons a i:hover{
   font-size: 3rem;
   transform: scale(1.1);
 }
+
 /**FOOTER--WITH--BG--COLOR***/
 div.footer-bg{
   background-image: url("");
@@ -336,9 +416,10 @@ i.fa-phone{
 display: flex;
 justify-content: center;
 font-size: 3rem;
-color:orange;
+color:rgba(255, 17, 0, 0.849)
 }
 h5{
+  text-align: center;
   margin: 0px;
 }
 aside.phone-num{

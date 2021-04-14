@@ -9,6 +9,7 @@
     height: 65vh;
     margin-top: -20px;
     opacity: 0.8;
+    background-image: url("https://scontent.fbir2-1.fna.fbcdn.net/v/t1.6435-9/124862023_1523073634548148_3267317726533468821_n.jpg?_nc_cat=102&ccb=1-3&_nc_sid=8bfeb9&_nc_ohc=yPlSHcKvBewAX-MFdZd&_nc_ht=scontent.fbir2-1.fna&oh=e41bb46654d941194bc6685f59c963a3&oe=609C190D");
   }
   h1{
     padding-top: 145px;
@@ -17,9 +18,9 @@
   }
 
   h4,
-p.menu-quotes{
+  p.menu-quotes{
   margin: 10px 0px;
-}
+  }
 
   aside.banner-brief{
     font-size: 1.1rem;
@@ -37,9 +38,11 @@ p.menu-quotes{
   }
 /**====WELCOME==PART==STARTS==WITH=PICS***/
 div.welcome-part{
-  height: 125vh;
+  height: 140vh;
 }
-
+figure.menu-fig{
+  margin-top: -110px;
+}
 section.welcome-wrap-left{
   margin-top: 55px;
   margin-left: 280px;
@@ -68,6 +71,22 @@ section.welcome-wrap-right{
 div.menu-foods-wrap{
   background-color: white;
 }
+
+/***MENU FOODS SECTION PARAGRAPHS***/
+h6{
+  text-align: center;
+  font-size: 1.45rem;
+}
+p.foods-specials-para{
+  text-align: center;
+  color:white;
+}
+aside.price-tag{
+  text-align: center;
+}
+
+
+aside.wednesday,
 h2{
   margin-left: 35px;
   font-family: lobster;
@@ -75,7 +94,29 @@ h2{
 }
 p.welcome-para,
 P.welcome-para2{
-  padding: 0px 25px;
+  padding: 0px 35px;
+}
+
+/***OVAL--IMAGE****/
+img.oval{
+  width: 135px;
+  height:135px;
+  border-radius: 50%;
+  left: 20%;
+  background: linear-gradient(
+    35deg,
+    #ccffff,
+    #ffcccc
+  );
+  animation-name: fade;
+  animation-duration: 5s;
+}
+
+@keyframes fade {
+  50% {
+    left: 60%;
+
+  }
 }
 /**HEADER--ON---WELCOME-WRAPER--**/
 h3{
@@ -93,18 +134,49 @@ aside.rountine-time{
   
 }
 
+/**FOR DICOVER BUTTON**/
+div.btn{
+  background-color:white;
+}
 /***CLIENT'S REVIEW PART***/
 div.review-part{
   background-image: none;
+  margin-top: 35px;
 }
+h5{
+  text-align: center;
+}
+
+
 /***PARA--FOR--CUSTOMER-REVIEWS-LINES***/
 P.review-para{
   margin-bottom: 20px;
+  padding: 0px 15px;
+  font-size: 0.85rem;
+  
+}
+p.happy-hours-para{
+  text-align: center;
+  font-weight: bold;
+}
+/***IMAGE OVAL**/
+img.oval{
+  margin-left: 0px;
+}
+
+aside.customer-name{
+  text-align: center;
 }
 /**SOCIAL-MEDIA-ICONS***/
 span.social-media-icons a{
   padding: 0px 15px;
-  margin: 0px 20px;
+  margin: 0px 10px;
+}
+
+/*SECTION FOR RIGHT PHOTO FEATURE***/
+section.feature-right-photo{
+  margin: 0px;
+  padding: 6px;
 }
 /**FOOTER--WITH--BG--COLOR***/
 div.footer-bg{
@@ -119,6 +191,9 @@ div.footer-bg{
  aside.copyright{
   font-size: 0.6rem;
 }
+
+
+
 }
 
 
