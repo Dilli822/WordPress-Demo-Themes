@@ -5,12 +5,17 @@
     margin-left: 10px;
     margin-top: -25px;
   }
+
+  .topnav {
+    position: static;
+    background-color: white;
+    
+  }
    /**=====BANNER--WITH --BG--IMAGES AND TEXT--*/
   div.banner{
     height: 65vh;
-    margin-top: -50px;
     opacity: 0.8;
-    background-image: url("https://scontent.fbir2-1.fna.fbcdn.net/v/t1.6435-9/124862023_1523073634548148_3267317726533468821_n.jpg?_nc_cat=102&ccb=1-3&_nc_sid=8bfeb9&_nc_ohc=yPlSHcKvBewAX-MFdZd&_nc_ht=scontent.fbir2-1.fna&oh=e41bb46654d941194bc6685f59c963a3&oe=609C190D");
+    background-image: url("kamana\ banner.jpg");
   }
   h1{
     padding-top: 145px;
@@ -33,6 +38,10 @@
     width: 5%;
     margin-left: 50px;
 
+  }
+
+  button.btn-about-us{
+    width:auto;
   }
   /* Hide the link that should open and close the topnav on small screens */
 .topnav .icon {
@@ -62,7 +71,7 @@ img.wrap-img-mid{
 }
 
 section.welcome-wrap-right{
-  background-image: url("https://scontent.fbir2-1.fna.fbcdn.net/v/t1.6435-9/156746376_1605162496339261_3747726251626896955_n.jpg?_nc_cat=109&ccb=1-3&_nc_sid=8bfeb9&_nc_ohc=lLIA7lRg5AgAX-BQVW-&_nc_ht=scontent.fbir2-1.fna&oh=f277b44b83f3273c0609b7a7b79191f9&oe=609902B9");
+  background-image: url("trainee.jpg");
   background-size: 100% 100%;
   margin: 5px 5px;
   max-width: 200px;

@@ -1,0 +1,103 @@
+
+@media only screen and (max-width: 400px) { 
+  h1{
+    color:rgb(245, 245, 245);
+    font-size: 1.85rem;
+    background-color: rgba(58, 56, 56, 0.466);
+
+  }
+  aside.banner-brief,
+  h3,
+  aside.rountine-time{
+    color:rgb(255, 255, 255);
+    background-color: rgba(58, 56, 56, 0.466);
+  }
+/**=====BANNER--WITH --BG--IMAGES AND TEXT---***/
+/**====WELCOME==PART==STARTS==WITH=PICS***/
+   div.welcome-part{
+  height:auto;
+  }
+   aside.welcome{
+  margin-left: 40px;
+
+   }
+  section.hr-line{
+        padding-left: 0px; 
+      }
+
+      section.welcome-wrap-left{
+        margin-left: 0px;
+        margin-top: 450px;
+        height: auto;
+      }
+
+      img.wrap-img-mid{
+        margin: 25px 0px;
+        height: 50vh;
+        border-radius: 20px;
+      }
+
+      figure.menu-fig{
+        margin: 25px;
+      }
+
+     /*-------FOOD-MENU-SECTION------**/
+      div.menu-foods-wrap{
+       margin-top: 130px;
+       }
+       span.social-media-icons a i{
+        font-size: 1.85rem;
+        margin: 0px 0px;
+        padding: 0px;
+      }
+      span.social-media-icons a i:hover{
+        transform: scale();
+      }
+      h5{
+      font-size: 1.25rem;
+      }
+      
+        }
+
+   @media only screen and (max-width: 400px) {
+    section.hr-line{
+        width: 18%;
+        margin-left: 130px;
+       
+      } }
+      @media only screen and (min-width:414px) and (max-width: 736px) {
+        /**====WELCOME==PART==STARTS==WITH=PICS***/
+        div.welcome-part{
+        height: auto;
+        }
+        aside.welcome{
+          margin-left: 40px;
+           }
+        /**====WELCOME==PART==STARTS==WITH=PICS***/
+        section.welcome-wrap-left{
+          margin-left: 0px;
+          margin-top: 450px;
+          height: auto;
+  
+        }
+        figure.menu-fig{
+          margin: 25px;
+        }
+
+        span.social-media-icons a i{
+          margin: 0px;
+        }
+        section.hr-line{
+            width: 18%;
+            margin-left: 160px;
+           
+          }
+          h5{
+            font-size: 1.25rem;
+            }
+             
+        }
+        
+    
+     
+   
