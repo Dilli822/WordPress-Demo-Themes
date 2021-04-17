@@ -9,6 +9,7 @@
   .topnav {
     position: static;
     background-color: white;
+    height: 15vh;
     
   }
    /**=====BANNER--WITH --BG--IMAGES AND TEXT--*/
@@ -208,9 +209,11 @@ div.footer-bg{
 }
 }
 
+
 @media screen and (max-width: 800px){
   section.hr-line{
    display: none;
 
   }
 }
+ 
