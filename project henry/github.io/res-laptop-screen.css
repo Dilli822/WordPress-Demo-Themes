@@ -1,48 +1,40 @@
 
 
- @media only screen and (max-width:1025px) and (min-width: 767px){
+ @media only screen  and (max-width:1025px) and (min-width: 767px){ 
   div.banner{
     height: 60vh;
+    padding-top: 60px;
   }  
+
   h1{
        padding-top: 200px;
        font-size: 2.5rem;
         background-color: rgba(59, 56, 56, 0.336);
+        color: red;
      }
-  
-/****HEAD LOGO*****/
-.logo-head{
-  width: 160px;
-  margin-left: 60px;
-  margin-top: -45px;
-}
-.topnav {
-  height: 12vh;
-}
-   .topnav a{
-     font-size: 2rem;
-   }
 
-   /* Add an active class to highlight the current page */
-.topnav a.active {
-width: auto;
-}
+     .logo-head{
+       margin-left: 30px;
+     }
+
  /**====WELCOME==PART==STARTS==WITH=PICS***/
-div.welcome-part{
+ div.welcome-part{
+  height: auto;
+}
+section.welcome-wrap-left{
+    margin-left: 300px;
     height: auto;
-  }
-  section.welcome-wrap-left{
-      margin-left: 300px;
-      height: auto;
-  }
-  section.welcome-wrap-right{
-    height: auto;
-  }
-  img.wrap-img-mid{
-    height: auto;
-    max-width: 330px;
-  }
- }
+}
+section.welcome-wrap-right{
+  height: auto;
+}
+img.wrap-img-mid{
+  height: auto;
+  max-width: 330px;
+}
+}
+
+
 
 
  @media screen and (max-width:1366px) and (min-width: 1024px){
@@ -54,7 +46,6 @@ div.welcome-part{
   h1{
       font-size: 3rem;
   }
-
 
   section.hr-line{
       border-bottom: 2px solid orangered;
@@ -70,7 +61,7 @@ div.welcome-part{
   position: fixed;
   color:white;
   width: 100%;
-  height: 10vh;
+  height: 7vh;
 }
 
    .topnav a{
@@ -136,132 +127,4 @@ div.footer-bg{
   font-size: 0.6rem;
 }
 }
-
-@media only screen and (max-width:1024px) and (orientation: landscape){
- 
-  h1{
-      margin-top: 0px;
-      padding-top: 0px;
-      font-size: 4rem;
-      color:rgb(0, 225, 255);
-  }
-  section.hr-line{
-  display: none;
-
-  }
-  section.welcome-wrap-right{
-    max-width: 350px;
-  }
-  div.sunday-feature{
-    flex-wrap: nowrap;
-   
-  }
-  /*SECTION FOR LEFT PHOTO FEATURE***/
-img.feature-left-photo{
-  max-width: 450px;
-}
-/*SECTION FOR RIGHT PHOTO FEATURE***/
-section.feature-right-photo{
-  margin-top: 35px;
-  margin-left: 30px;
-  max-width: 500px;
-}
-
-/***CLIENT'S REVIEW PART***/
-div.review-part{
-  flex-wrap: nowrap;
-}
-
-
-}
-
-@media only screen and (max-width:1366px)  and (orientation: landscape){
-  div.banner{
-    height: 75vh;
-    padding-top: 250px;
-  }  
-  
-  h1{
-      margin-top: 0px;
-      padding-top: 0px;
-      font-size: 5rem;
-      color:blueviolet;
-  }
-  section.hr-line{
-    margin-left: 640px;
-  
- } 
- section.welcome-wrap-left{
-  margin-left: 350px;
-  max-width: 80%;
-}
- /**KNOW==BTN**/
- button.btn-about-us{
-  margin: 35px -15px;
-   width: 40%;
-  }
- img.wrap-img-mid{
-  max-width: 450px;
-  height: 60vh;
-}
-section.welcome-wrap-right{
-  width: 450px;
-}
-/*SECTION FOR LEFT PHOTO FEATURE***/
-img.feature-left-photo{
-  width: 550px;
-}
-/***CLIENT'S REVIEW PART***/
-div.review-part{
-  flex-wrap: nowrap;
-}
-
-span.social-media-icons a i{
-  font-size: 3rem;
-  margin: 10px 25px 0px 25px;
-  padding-top: 15px;
- 
-}
-}
-
-@media only screen and (max-width:800px)  and (orientation: landscape){
-h1{
-  font-size: 3rem;
-  color:red;
-}
-div.banner{
-  height: 105vh;
-}
-img.wrap-img-mid{
-  margin: 55px 60px;
-  height: 67vh;
-}
- /**KNOW==BTN**/
- button.btn-about-us{
-  width: auto;
-} 
-
-section.welcome-wrap-right{
-  max-width: 300px;
-  height: auto;
-}
-/*SECTION FOR LEFT PHOTO FEATURE***/
-img.feature-left-photo{
-  max-width: 400px;
-  margin-left: 25px;
-}
-
-/*SECTION FOR RIGHT PHOTO FEATURE***/
-section.feature-right-photo{
-  margin-top: 35px;
-  margin-left: 20px;
-  max-width: auto;
-}
-/***CLIENT'S REVIEW PART***/
-div.review-part{
-  flex-wrap: wrap;
-}
-}
-
-
 
