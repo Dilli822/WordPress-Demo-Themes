@@ -95,7 +95,34 @@ div.banner{
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-position: cover;
+  animation-duration: 1s;
+  animation-name: scale;
+ animation-iteration-count: finite;
+ animation-timing-function: linear;
 }
+/***---------------ANIMATION CSS---------------***/
+.animation--scale{
+animation-name: scale;
+animation-duration: 3s;
+animation-iteration-count: infinite;
+animation-timing-function: linear;
+}
+/***-------------ANIMATION KEYFRAMEWORK CSS --------------------***/
+@keyframes scale {
+  0% {
+      transform : scale(1);
+  }
+  25% {
+      transform : scale(0.5);
+  }
+  75%{
+      transform: scale(1.5);
+  }
+  100%{
+      transform: (1);
+  }
+}
+
 
 section.hr-line{
   border: 2px solid rgb(255, 0, 0);
@@ -260,7 +287,6 @@ aside.menu-brief{
 }
 
 p.menu-quotes{
- 
   text-align: center;
   font-family: 'Dancing Script', cursive;
   font-size: 2rem;
@@ -392,12 +418,12 @@ img.oval{
   border-radius: 50%;
   position: relative;
   animation-name: example;
-  animation-duration: 45s;
+  animation-duration: 65s;
 }
 
 @keyframes example {
   0%   { left:0px; top:0px;}
-  25%  {left:200px; top:0px;}
+  50%  {left:200px; top:0px;}
 }
 
 h5{
@@ -426,14 +452,14 @@ span.social-media-icons a.utube{
   color:rgb(255, 0, 0);
 }
 span.social-media-icons a.insta{
-  color:rgb(104, 104, 104);
+  color:rgb(236, 91, 91);
 }
 span.social-media-icons a.mail{
-  color:rgb(134, 120, 120);
+  color:rgb(2, 2, 2);
 }
 span.social-media-icons a i{
   font-size: 3rem;
-  margin: 0px 35px;
+  margin: 20px 35px;
  
 }
 span.social-media-icons a i:hover{

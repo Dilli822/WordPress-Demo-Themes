@@ -10,7 +10,7 @@
         color:rgb(0, 225, 255);
     }
     .topnav{
-      height: 10vh;
+      height: 12vh;
     }
     section.hr-line{
     display: none;
@@ -52,12 +52,15 @@
         margin-top: 0px;
         padding-top: 0px;
         font-size: 5rem;
-        color:blueviolet;
+        color:rgb(156, 226, 43);
     }
     section.hr-line{
       margin-left: 640px;
     
    } 
+   .topnav{
+     height: 15vh;
+   }
    section.welcome-wrap-left{
     margin-left: 350px;
     max-width: 80%;
@@ -97,13 +100,24 @@
     color:red;
   }
   div.banner{
-    height: 105vh;
+    height: auto;
   }
+  div.welcome-part{
+    height: auto;
+  }
+  section.welcome-wrap-left{
+    margin-top: 50px;
+    margin-left: 300px;
+    max-width: 500px;
+    height: auto;
+  }
+
   img.wrap-img-mid{
     max-width: 300px;
+    height: auto;
   }
   section.welcome-wrap-right{
-    max-width: 300px;
+    max-width: 20px;
     height: 80vh;
   }
    /**KNOW==BTN**/
@@ -166,7 +180,10 @@
     width: auto;
   } 
   
-  
+  section.welcome-wrap-right{
+    max-width: 300px;
+    height: auto;
+  }
   /*SECTION FOR LEFT PHOTO FEATURE***/
   img.feature-left-photo{
     max-width: 400px;
@@ -182,7 +199,7 @@
   section.feature-right-photo{
     margin-top: 35px;
     margin-left: 20px;
-    max-width: auto;
+    height: auto;
   }
   /***CLIENT'S REVIEW PART***/
   div.review-part{

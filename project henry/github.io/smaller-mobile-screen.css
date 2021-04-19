@@ -214,6 +214,7 @@ span.social-media-icons a i:hover{
   .logo-head{
     margin-left: 50px;
   }
+  
   .topnav a,
   .topnav a:hover,
   span.social-media-icons a i:hover{
@@ -266,6 +267,7 @@ span.social-media-icons a i:hover{
 @media only screen and (max-width: 812px){
  .topnav{
    background-color: white;
+   height: auto;
  }
  .topnav .icon{
   color: rgb(252, 73, 8);
