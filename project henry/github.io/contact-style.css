@@ -100,8 +100,8 @@ input,textarea,button{
   div.banner{
       background-image: url("contact-banne2r.jpg");
       background-repeat: no-repeat;
-      height: 80vh;
-      background-size: cover;
+      height: 90vh;
+      object-fit: center;
   }
 
   h1{

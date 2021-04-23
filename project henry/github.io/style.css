@@ -96,9 +96,8 @@ img{
 div.banner{
   background-image: url("kamana\ banner.jpg");
   height: 120vh;
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  background-position: cover;
+  object-fit: contain;
+  background-position: center;
   animation-duration: 1s;
   animation-name: scale;
  animation-iteration-count: finite;

@@ -1,5 +1,5 @@
 
-
+//This is for Topnav responsive navbar//
 function myFunction() {
   var x = document.getElementById("myTopnav");
   if (x.className === "topnav") {
@@ -9,7 +9,7 @@ function myFunction() {
   }
 }
 
-//SLIDESHOW SCRIPTS
+//this is for carousel slideshow
 var myIndex = 0;
 carousel();
 
